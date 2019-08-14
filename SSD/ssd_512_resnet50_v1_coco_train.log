@@ -1,0 +1,1215 @@
+Namespace(amp=False, batch_size=32, dali=False, data_shape=512, dataset='coco', dataset_root='~/.mxnet/datasets/', epochs=25, gpus='0,1,2,3,4,5,6,7', horovod=False, log_interval=100, lr=0.002, lr_decay=0.1, lr_decay_epoch='160,200', momentum=0.9, network='resnet50_v1', num_workers=32, resume='', save_interval=10, save_prefix='ssd_512_resnet50_v1_coco', seed=233, start_epoch=0, syncbn=False, val_interval=10, wd=0.0005)
+Start training from [Epoch 0]
+[Epoch 0][Batch 99], Speed: 146.092 samples/sec, CrossEntropy=8.955, SmoothL1=4.230
+[Epoch 0][Batch 199], Speed: 152.788 samples/sec, CrossEntropy=7.559, SmoothL1=3.838
+[Epoch 0][Batch 299], Speed: 154.407 samples/sec, CrossEntropy=7.008, SmoothL1=3.640
+[Epoch 0][Batch 399], Speed: 146.105 samples/sec, CrossEntropy=6.677, SmoothL1=3.499
+[Epoch 0][Batch 499], Speed: 154.114 samples/sec, CrossEntropy=6.462, SmoothL1=3.395
+[Epoch 0][Batch 599], Speed: 136.437 samples/sec, CrossEntropy=6.301, SmoothL1=3.319
+[Epoch 0][Batch 699], Speed: 149.214 samples/sec, CrossEntropy=6.171, SmoothL1=3.268
+[Epoch 0][Batch 799], Speed: 150.088 samples/sec, CrossEntropy=6.062, SmoothL1=3.213
+[Epoch 0][Batch 899], Speed: 150.988 samples/sec, CrossEntropy=5.966, SmoothL1=3.177
+[Epoch 0][Batch 999], Speed: 146.136 samples/sec, CrossEntropy=5.880, SmoothL1=3.142
+[Epoch 0][Batch 1099], Speed: 160.118 samples/sec, CrossEntropy=5.808, SmoothL1=3.113
+[Epoch 0][Batch 1199], Speed: 148.238 samples/sec, CrossEntropy=5.742, SmoothL1=3.083
+[Epoch 0][Batch 1299], Speed: 142.964 samples/sec, CrossEntropy=5.683, SmoothL1=3.052
+[Epoch 0][Batch 1399], Speed: 156.180 samples/sec, CrossEntropy=5.628, SmoothL1=3.022
+[Epoch 0][Batch 1499], Speed: 150.864 samples/sec, CrossEntropy=5.580, SmoothL1=2.994
+[Epoch 0][Batch 1599], Speed: 157.446 samples/sec, CrossEntropy=5.533, SmoothL1=2.970
+[Epoch 0][Batch 1699], Speed: 151.141 samples/sec, CrossEntropy=5.487, SmoothL1=2.954
+[Epoch 0][Batch 1799], Speed: 150.548 samples/sec, CrossEntropy=5.446, SmoothL1=2.942
+[Epoch 0][Batch 1899], Speed: 152.960 samples/sec, CrossEntropy=5.409, SmoothL1=2.923
+[Epoch 0][Batch 1999], Speed: 152.426 samples/sec, CrossEntropy=5.370, SmoothL1=2.906
+[Epoch 0][Batch 2099], Speed: 168.276 samples/sec, CrossEntropy=5.334, SmoothL1=2.891
+[Epoch 0][Batch 2199], Speed: 148.126 samples/sec, CrossEntropy=5.304, SmoothL1=2.876
+[Epoch 0][Batch 2299], Speed: 157.862 samples/sec, CrossEntropy=5.274, SmoothL1=2.864
+[Epoch 0][Batch 2399], Speed: 147.811 samples/sec, CrossEntropy=5.245, SmoothL1=2.852
+[Epoch 0][Batch 2499], Speed: 147.525 samples/sec, CrossEntropy=5.217, SmoothL1=2.841
+[Epoch 0][Batch 2599], Speed: 163.410 samples/sec, CrossEntropy=5.192, SmoothL1=2.827
+[Epoch 0][Batch 2699], Speed: 134.837 samples/sec, CrossEntropy=5.165, SmoothL1=2.817
+[Epoch 0][Batch 2799], Speed: 155.711 samples/sec, CrossEntropy=5.140, SmoothL1=2.804
+[Epoch 0][Batch 2899], Speed: 166.019 samples/sec, CrossEntropy=5.116, SmoothL1=2.793
+[Epoch 0][Batch 2999], Speed: 164.193 samples/sec, CrossEntropy=5.095, SmoothL1=2.783
+[Epoch 0][Batch 3099], Speed: 158.317 samples/sec, CrossEntropy=5.073, SmoothL1=2.774
+[Epoch 0][Batch 3199], Speed: 143.086 samples/sec, CrossEntropy=5.051, SmoothL1=2.767
+[Epoch 0][Batch 3299], Speed: 163.298 samples/sec, CrossEntropy=5.032, SmoothL1=2.755
+[Epoch 0][Batch 3399], Speed: 155.886 samples/sec, CrossEntropy=5.013, SmoothL1=2.745
+[Epoch 0][Batch 3499], Speed: 163.296 samples/sec, CrossEntropy=4.995, SmoothL1=2.736
+[Epoch 0][Batch 3599], Speed: 166.404 samples/sec, CrossEntropy=4.977, SmoothL1=2.729
+[Epoch 0] Training cost: 774.426, CrossEntropy=4.966, SmoothL1=2.724
+[Epoch 0] Validation: 
+~~~~ Summary metrics ~~~~
+=Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.061
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.151
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.039
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.013
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.090
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.085
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.139
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.148
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.180
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.193
+person=19.6
+bicycle=3.9
+car=8.8
+motorcycle=6.8
+airplane=13.1
+bus=17.6
+train=16.1
+truck=4.8
+boat=1.3
+traffic light=1.3
+fire hydrant=9.8
+stop sign=21.9
+parking meter=2.5
+bench=2.0
+bird=7.0
+cat=12.6
+dog=12.2
+horse=9.5
+sheep=6.8
+cow=9.8
+elephant=12.0
+bear=7.5
+zebra=24.7
+giraffe=21.8
+backpack=0.5
+umbrella=5.4
+handbag=0.1
+tie=1.7
+suitcase=1.2
+frisbee=6.9
+skis=1.6
+snowboard=0.1
+sports ball=4.4
+kite=2.9
+baseball bat=1.6
+baseball glove=1.4
+skateboard=4.5
+surfboard=2.7
+tennis racket=7.5
+bottle=3.3
+wine glass=3.6
+cup=7.3
+fork=1.1
+knife=0.8
+spoon=0.1
+bowl=10.6
+banana=1.2
+apple=1.3
+sandwich=5.0
+orange=6.4
+broccoli=3.3
+carrot=0.7
+hot dog=0.8
+pizza=11.6
+donut=8.9
+cake=4.6
+chair=3.3
+couch=7.0
+potted plant=3.6
+bed=1.4
+dining table=1.8
+toilet=14.3
+tv=16.5
+laptop=11.8
+mouse=4.6
+remote=0.3
+keyboard=6.6
+cell phone=3.3
+microwave=11.0
+oven=3.4
+toaster=0.0
+sink=4.6
+refrigerator=1.4
+book=0.8
+clock=13.7
+vase=2.5
+scissors=0.0
+teddy bear=6.7
+hair drier=0.0
+toothbrush=0.0
+~~~~ MeanAP @ IoU=[0.50,0.95] ~~~~
+=6.1
+[Epoch 1][Batch 99], Speed: 156.838 samples/sec, CrossEntropy=4.254, SmoothL1=2.453
+[Epoch 1][Batch 199], Speed: 141.228 samples/sec, CrossEntropy=4.286, SmoothL1=2.430
+[Epoch 1][Batch 299], Speed: 149.188 samples/sec, CrossEntropy=4.276, SmoothL1=2.443
+[Epoch 1][Batch 399], Speed: 129.372 samples/sec, CrossEntropy=4.274, SmoothL1=2.434
+[Epoch 1][Batch 499], Speed: 157.314 samples/sec, CrossEntropy=4.276, SmoothL1=2.421
+[Epoch 1][Batch 599], Speed: 153.820 samples/sec, CrossEntropy=4.264, SmoothL1=2.415
+[Epoch 1][Batch 699], Speed: 147.061 samples/sec, CrossEntropy=4.260, SmoothL1=2.413
+[Epoch 1][Batch 799], Speed: 151.135 samples/sec, CrossEntropy=4.250, SmoothL1=2.408
+[Epoch 1][Batch 899], Speed: 145.628 samples/sec, CrossEntropy=4.249, SmoothL1=2.403
+[Epoch 1][Batch 999], Speed: 158.066 samples/sec, CrossEntropy=4.239, SmoothL1=2.402
+[Epoch 1][Batch 1099], Speed: 148.028 samples/sec, CrossEntropy=4.230, SmoothL1=2.393
+[Epoch 1][Batch 1199], Speed: 159.441 samples/sec, CrossEntropy=4.225, SmoothL1=2.391
+[Epoch 1][Batch 1299], Speed: 156.563 samples/sec, CrossEntropy=4.221, SmoothL1=2.384
+[Epoch 1][Batch 1399], Speed: 154.820 samples/sec, CrossEntropy=4.216, SmoothL1=2.379
+[Epoch 1][Batch 1499], Speed: 152.613 samples/sec, CrossEntropy=4.212, SmoothL1=2.374
+[Epoch 1][Batch 1599], Speed: 156.772 samples/sec, CrossEntropy=4.210, SmoothL1=2.375
+[Epoch 1][Batch 1699], Speed: 138.828 samples/sec, CrossEntropy=4.203, SmoothL1=2.373
+[Epoch 1][Batch 1799], Speed: 149.815 samples/sec, CrossEntropy=4.197, SmoothL1=2.375
+[Epoch 1][Batch 1899], Speed: 146.947 samples/sec, CrossEntropy=4.191, SmoothL1=2.374
+[Epoch 1][Batch 1999], Speed: 164.987 samples/sec, CrossEntropy=4.187, SmoothL1=2.374
+[Epoch 1][Batch 2099], Speed: 167.790 samples/sec, CrossEntropy=4.181, SmoothL1=2.373
+[Epoch 1][Batch 2199], Speed: 153.134 samples/sec, CrossEntropy=4.176, SmoothL1=2.368
+[Epoch 1][Batch 2299], Speed: 140.932 samples/sec, CrossEntropy=4.173, SmoothL1=2.365
+[Epoch 1][Batch 2399], Speed: 155.139 samples/sec, CrossEntropy=4.168, SmoothL1=2.364
+[Epoch 1][Batch 2499], Speed: 155.849 samples/sec, CrossEntropy=4.163, SmoothL1=2.363
+[Epoch 1][Batch 2599], Speed: 146.068 samples/sec, CrossEntropy=4.157, SmoothL1=2.364
+[Epoch 1][Batch 2699], Speed: 151.504 samples/sec, CrossEntropy=4.153, SmoothL1=2.359
+[Epoch 1][Batch 2799], Speed: 147.636 samples/sec, CrossEntropy=4.148, SmoothL1=2.356
+[Epoch 1][Batch 2899], Speed: 147.663 samples/sec, CrossEntropy=4.143, SmoothL1=2.354
+[Epoch 1][Batch 2999], Speed: 157.124 samples/sec, CrossEntropy=4.140, SmoothL1=2.354
+[Epoch 1][Batch 3099], Speed: 162.821 samples/sec, CrossEntropy=4.135, SmoothL1=2.350
+[Epoch 1][Batch 3199], Speed: 152.236 samples/sec, CrossEntropy=4.129, SmoothL1=2.350
+[Epoch 1][Batch 3299], Speed: 151.315 samples/sec, CrossEntropy=4.124, SmoothL1=2.350
+[Epoch 1][Batch 3399], Speed: 144.830 samples/sec, CrossEntropy=4.119, SmoothL1=2.348
+[Epoch 1][Batch 3499], Speed: 152.032 samples/sec, CrossEntropy=4.116, SmoothL1=2.347
+[Epoch 1][Batch 3599], Speed: 144.813 samples/sec, CrossEntropy=4.110, SmoothL1=2.346
+[Epoch 1] Training cost: 775.112, CrossEntropy=4.108, SmoothL1=2.346
+[Epoch 2][Batch 99], Speed: 157.113 samples/sec, CrossEntropy=3.920, SmoothL1=2.316
+[Epoch 2][Batch 199], Speed: 150.102 samples/sec, CrossEntropy=3.924, SmoothL1=2.286
+[Epoch 2][Batch 299], Speed: 146.801 samples/sec, CrossEntropy=3.938, SmoothL1=2.287
+[Epoch 2][Batch 399], Speed: 148.311 samples/sec, CrossEntropy=3.934, SmoothL1=2.284
+[Epoch 2][Batch 499], Speed: 159.259 samples/sec, CrossEntropy=3.929, SmoothL1=2.284
+[Epoch 2][Batch 599], Speed: 149.381 samples/sec, CrossEntropy=3.923, SmoothL1=2.279
+[Epoch 2][Batch 699], Speed: 151.004 samples/sec, CrossEntropy=3.919, SmoothL1=2.294
+[Epoch 2][Batch 799], Speed: 156.745 samples/sec, CrossEntropy=3.906, SmoothL1=2.284
+[Epoch 2][Batch 899], Speed: 153.720 samples/sec, CrossEntropy=3.901, SmoothL1=2.280
+[Epoch 2][Batch 999], Speed: 127.384 samples/sec, CrossEntropy=3.902, SmoothL1=2.278
+[Epoch 2][Batch 1099], Speed: 147.664 samples/sec, CrossEntropy=3.900, SmoothL1=2.272
+[Epoch 2][Batch 1199], Speed: 149.152 samples/sec, CrossEntropy=3.898, SmoothL1=2.267
+[Epoch 2][Batch 1299], Speed: 158.506 samples/sec, CrossEntropy=3.897, SmoothL1=2.263
+[Epoch 2][Batch 1399], Speed: 167.367 samples/sec, CrossEntropy=3.898, SmoothL1=2.266
+[Epoch 2][Batch 1499], Speed: 143.544 samples/sec, CrossEntropy=3.894, SmoothL1=2.267
+[Epoch 2][Batch 1599], Speed: 158.436 samples/sec, CrossEntropy=3.890, SmoothL1=2.268
+[Epoch 2][Batch 1699], Speed: 142.822 samples/sec, CrossEntropy=3.890, SmoothL1=2.269
+[Epoch 2][Batch 1799], Speed: 162.558 samples/sec, CrossEntropy=3.886, SmoothL1=2.266
+[Epoch 2][Batch 1899], Speed: 171.564 samples/sec, CrossEntropy=3.883, SmoothL1=2.266
+[Epoch 2][Batch 1999], Speed: 162.394 samples/sec, CrossEntropy=3.878, SmoothL1=2.264
+[Epoch 2][Batch 2099], Speed: 148.751 samples/sec, CrossEntropy=3.875, SmoothL1=2.263
+[Epoch 2][Batch 2199], Speed: 132.585 samples/sec, CrossEntropy=3.873, SmoothL1=2.261
+[Epoch 2][Batch 2299], Speed: 140.507 samples/sec, CrossEntropy=3.870, SmoothL1=2.257
+[Epoch 2][Batch 2399], Speed: 146.174 samples/sec, CrossEntropy=3.869, SmoothL1=2.257
+[Epoch 2][Batch 2499], Speed: 150.717 samples/sec, CrossEntropy=3.866, SmoothL1=2.255
+[Epoch 2][Batch 2599], Speed: 141.382 samples/sec, CrossEntropy=3.862, SmoothL1=2.254
+[Epoch 2][Batch 2699], Speed: 150.872 samples/sec, CrossEntropy=3.859, SmoothL1=2.253
+[Epoch 2][Batch 2799], Speed: 148.498 samples/sec, CrossEntropy=3.858, SmoothL1=2.251
+[Epoch 2][Batch 2899], Speed: 151.656 samples/sec, CrossEntropy=3.856, SmoothL1=2.251
+[Epoch 2][Batch 2999], Speed: 148.929 samples/sec, CrossEntropy=3.855, SmoothL1=2.248
+[Epoch 2][Batch 3099], Speed: 150.604 samples/sec, CrossEntropy=3.852, SmoothL1=2.246
+[Epoch 2][Batch 3199], Speed: 147.589 samples/sec, CrossEntropy=3.851, SmoothL1=2.246
+[Epoch 2][Batch 3299], Speed: 150.637 samples/sec, CrossEntropy=3.848, SmoothL1=2.245
+[Epoch 2][Batch 3399], Speed: 167.125 samples/sec, CrossEntropy=3.845, SmoothL1=2.244
+[Epoch 2][Batch 3499], Speed: 143.022 samples/sec, CrossEntropy=3.842, SmoothL1=2.243
+[Epoch 2][Batch 3599], Speed: 157.274 samples/sec, CrossEntropy=3.840, SmoothL1=2.242
+[Epoch 2] Training cost: 773.575, CrossEntropy=3.840, SmoothL1=2.244
+[Epoch 3][Batch 99], Speed: 153.645 samples/sec, CrossEntropy=3.739, SmoothL1=2.199
+[Epoch 3][Batch 199], Speed: 149.538 samples/sec, CrossEntropy=3.740, SmoothL1=2.191
+[Epoch 3][Batch 299], Speed: 139.793 samples/sec, CrossEntropy=3.743, SmoothL1=2.188
+[Epoch 3][Batch 399], Speed: 141.445 samples/sec, CrossEntropy=3.734, SmoothL1=2.180
+[Epoch 3][Batch 499], Speed: 155.107 samples/sec, CrossEntropy=3.740, SmoothL1=2.182
+[Epoch 3][Batch 599], Speed: 153.567 samples/sec, CrossEntropy=3.736, SmoothL1=2.192
+[Epoch 3][Batch 699], Speed: 161.547 samples/sec, CrossEntropy=3.736, SmoothL1=2.190
+[Epoch 3][Batch 799], Speed: 146.414 samples/sec, CrossEntropy=3.737, SmoothL1=2.187
+[Epoch 3][Batch 899], Speed: 142.833 samples/sec, CrossEntropy=3.737, SmoothL1=2.184
+[Epoch 3][Batch 999], Speed: 153.993 samples/sec, CrossEntropy=3.734, SmoothL1=2.182
+[Epoch 3][Batch 1099], Speed: 157.256 samples/sec, CrossEntropy=3.732, SmoothL1=2.179
+[Epoch 3][Batch 1199], Speed: 149.104 samples/sec, CrossEntropy=3.730, SmoothL1=2.173
+[Epoch 3][Batch 1299], Speed: 156.766 samples/sec, CrossEntropy=3.726, SmoothL1=2.172
+[Epoch 3][Batch 1399], Speed: 150.317 samples/sec, CrossEntropy=3.722, SmoothL1=2.170
+[Epoch 3][Batch 1499], Speed: 168.268 samples/sec, CrossEntropy=3.723, SmoothL1=2.167
+[Epoch 3][Batch 1599], Speed: 148.558 samples/sec, CrossEntropy=3.720, SmoothL1=2.165
+[Epoch 3][Batch 1699], Speed: 156.741 samples/sec, CrossEntropy=3.717, SmoothL1=2.163
+[Epoch 3][Batch 1799], Speed: 148.387 samples/sec, CrossEntropy=3.716, SmoothL1=2.162
+[Epoch 3][Batch 1899], Speed: 156.239 samples/sec, CrossEntropy=3.716, SmoothL1=2.163
+[Epoch 3][Batch 1999], Speed: 149.294 samples/sec, CrossEntropy=3.715, SmoothL1=2.165
+[Epoch 3][Batch 2099], Speed: 162.387 samples/sec, CrossEntropy=3.714, SmoothL1=2.167
+[Epoch 3][Batch 2199], Speed: 169.419 samples/sec, CrossEntropy=3.711, SmoothL1=2.167
+[Epoch 3][Batch 2299], Speed: 161.953 samples/sec, CrossEntropy=3.711, SmoothL1=2.166
+[Epoch 3][Batch 2399], Speed: 151.330 samples/sec, CrossEntropy=3.709, SmoothL1=2.164
+[Epoch 3][Batch 2499], Speed: 144.948 samples/sec, CrossEntropy=3.708, SmoothL1=2.165
+[Epoch 3][Batch 2599], Speed: 149.584 samples/sec, CrossEntropy=3.706, SmoothL1=2.164
+[Epoch 3][Batch 2699], Speed: 158.180 samples/sec, CrossEntropy=3.703, SmoothL1=2.164
+[Epoch 3][Batch 2799], Speed: 148.863 samples/sec, CrossEntropy=3.703, SmoothL1=2.164
+[Epoch 3][Batch 2899], Speed: 148.991 samples/sec, CrossEntropy=3.700, SmoothL1=2.161
+[Epoch 3][Batch 2999], Speed: 161.191 samples/sec, CrossEntropy=3.698, SmoothL1=2.160
+[Epoch 3][Batch 3099], Speed: 158.282 samples/sec, CrossEntropy=3.696, SmoothL1=2.159
+[Epoch 3][Batch 3199], Speed: 168.820 samples/sec, CrossEntropy=3.695, SmoothL1=2.158
+[Epoch 3][Batch 3299], Speed: 172.055 samples/sec, CrossEntropy=3.694, SmoothL1=2.155
+[Epoch 3][Batch 3399], Speed: 155.453 samples/sec, CrossEntropy=3.692, SmoothL1=2.154
+[Epoch 3][Batch 3499], Speed: 150.037 samples/sec, CrossEntropy=3.690, SmoothL1=2.155
+[Epoch 3][Batch 3599], Speed: 161.829 samples/sec, CrossEntropy=3.690, SmoothL1=2.155
+[Epoch 3] Training cost: 778.655, CrossEntropy=3.689, SmoothL1=2.155
+[Epoch 4][Batch 99], Speed: 146.401 samples/sec, CrossEntropy=3.627, SmoothL1=2.044
+[Epoch 4][Batch 199], Speed: 157.413 samples/sec, CrossEntropy=3.630, SmoothL1=2.074
+[Epoch 4][Batch 299], Speed: 162.920 samples/sec, CrossEntropy=3.639, SmoothL1=2.109
+[Epoch 4][Batch 399], Speed: 144.811 samples/sec, CrossEntropy=3.624, SmoothL1=2.107
+[Epoch 4][Batch 499], Speed: 166.060 samples/sec, CrossEntropy=3.621, SmoothL1=2.106
+[Epoch 4][Batch 599], Speed: 145.685 samples/sec, CrossEntropy=3.618, SmoothL1=2.110
+[Epoch 4][Batch 699], Speed: 151.905 samples/sec, CrossEntropy=3.615, SmoothL1=2.114
+[Epoch 4][Batch 799], Speed: 131.123 samples/sec, CrossEntropy=3.609, SmoothL1=2.118
+[Epoch 4][Batch 899], Speed: 151.804 samples/sec, CrossEntropy=3.603, SmoothL1=2.119
+[Epoch 4][Batch 999], Speed: 149.023 samples/sec, CrossEntropy=3.601, SmoothL1=2.114
+[Epoch 4][Batch 1099], Speed: 152.961 samples/sec, CrossEntropy=3.602, SmoothL1=2.116
+[Epoch 4][Batch 1199], Speed: 151.092 samples/sec, CrossEntropy=3.601, SmoothL1=2.121
+[Epoch 4][Batch 1299], Speed: 163.752 samples/sec, CrossEntropy=3.600, SmoothL1=2.125
+[Epoch 4][Batch 1399], Speed: 157.272 samples/sec, CrossEntropy=3.602, SmoothL1=2.123
+[Epoch 4][Batch 1499], Speed: 152.087 samples/sec, CrossEntropy=3.603, SmoothL1=2.123
+[Epoch 4][Batch 1599], Speed: 154.695 samples/sec, CrossEntropy=3.605, SmoothL1=2.122
+[Epoch 4][Batch 1699], Speed: 166.638 samples/sec, CrossEntropy=3.605, SmoothL1=2.125
+[Epoch 4][Batch 1799], Speed: 146.271 samples/sec, CrossEntropy=3.603, SmoothL1=2.123
+[Epoch 4][Batch 1899], Speed: 154.941 samples/sec, CrossEntropy=3.603, SmoothL1=2.122
+[Epoch 4][Batch 1999], Speed: 145.740 samples/sec, CrossEntropy=3.600, SmoothL1=2.123
+[Epoch 4][Batch 2099], Speed: 152.212 samples/sec, CrossEntropy=3.601, SmoothL1=2.124
+[Epoch 4][Batch 2199], Speed: 159.763 samples/sec, CrossEntropy=3.599, SmoothL1=2.125
+[Epoch 4][Batch 2299], Speed: 153.561 samples/sec, CrossEntropy=3.597, SmoothL1=2.122
+[Epoch 4][Batch 2399], Speed: 171.973 samples/sec, CrossEntropy=3.595, SmoothL1=2.120
+[Epoch 4][Batch 2499], Speed: 144.899 samples/sec, CrossEntropy=3.592, SmoothL1=2.117
+[Epoch 4][Batch 2599], Speed: 164.254 samples/sec, CrossEntropy=3.591, SmoothL1=2.115
+[Epoch 4][Batch 2699], Speed: 151.590 samples/sec, CrossEntropy=3.590, SmoothL1=2.115
+[Epoch 4][Batch 2799], Speed: 173.603 samples/sec, CrossEntropy=3.591, SmoothL1=2.116
+[Epoch 4][Batch 2899], Speed: 162.843 samples/sec, CrossEntropy=3.590, SmoothL1=2.116
+[Epoch 4][Batch 2999], Speed: 151.716 samples/sec, CrossEntropy=3.588, SmoothL1=2.116
+[Epoch 4][Batch 3099], Speed: 150.044 samples/sec, CrossEntropy=3.588, SmoothL1=2.115
+[Epoch 4][Batch 3199], Speed: 161.046 samples/sec, CrossEntropy=3.588, SmoothL1=2.115
+[Epoch 4][Batch 3299], Speed: 145.756 samples/sec, CrossEntropy=3.586, SmoothL1=2.115
+[Epoch 4][Batch 3399], Speed: 152.648 samples/sec, CrossEntropy=3.585, SmoothL1=2.116
+[Epoch 4][Batch 3499], Speed: 134.463 samples/sec, CrossEntropy=3.583, SmoothL1=2.113
+[Epoch 4][Batch 3599], Speed: 156.641 samples/sec, CrossEntropy=3.582, SmoothL1=2.113
+[Epoch 4] Training cost: 769.564, CrossEntropy=3.582, SmoothL1=2.113
+[Epoch 5][Batch 99], Speed: 150.083 samples/sec, CrossEntropy=3.523, SmoothL1=2.034
+[Epoch 5][Batch 199], Speed: 151.053 samples/sec, CrossEntropy=3.529, SmoothL1=2.074
+[Epoch 5][Batch 299], Speed: 154.276 samples/sec, CrossEntropy=3.522, SmoothL1=2.092
+[Epoch 5][Batch 399], Speed: 156.173 samples/sec, CrossEntropy=3.530, SmoothL1=2.094
+[Epoch 5][Batch 499], Speed: 150.684 samples/sec, CrossEntropy=3.546, SmoothL1=2.091
+[Epoch 5][Batch 599], Speed: 169.917 samples/sec, CrossEntropy=3.541, SmoothL1=2.095
+[Epoch 5][Batch 699], Speed: 156.156 samples/sec, CrossEntropy=3.538, SmoothL1=2.095
+[Epoch 5][Batch 799], Speed: 141.269 samples/sec, CrossEntropy=3.539, SmoothL1=2.098
+[Epoch 5][Batch 899], Speed: 144.959 samples/sec, CrossEntropy=3.539, SmoothL1=2.096
+[Epoch 5][Batch 999], Speed: 157.349 samples/sec, CrossEntropy=3.538, SmoothL1=2.094
+[Epoch 5][Batch 1099], Speed: 151.659 samples/sec, CrossEntropy=3.536, SmoothL1=2.096
+[Epoch 5][Batch 1199], Speed: 143.926 samples/sec, CrossEntropy=3.536, SmoothL1=2.090
+[Epoch 5][Batch 1299], Speed: 147.382 samples/sec, CrossEntropy=3.533, SmoothL1=2.086
+[Epoch 5][Batch 1399], Speed: 157.774 samples/sec, CrossEntropy=3.531, SmoothL1=2.088
+[Epoch 5][Batch 1499], Speed: 159.034 samples/sec, CrossEntropy=3.531, SmoothL1=2.088
+[Epoch 5][Batch 1599], Speed: 157.691 samples/sec, CrossEntropy=3.529, SmoothL1=2.087
+[Epoch 5][Batch 1699], Speed: 166.049 samples/sec, CrossEntropy=3.528, SmoothL1=2.082
+[Epoch 5][Batch 1799], Speed: 159.536 samples/sec, CrossEntropy=3.525, SmoothL1=2.079
+[Epoch 5][Batch 1899], Speed: 168.113 samples/sec, CrossEntropy=3.521, SmoothL1=2.076
+[Epoch 5][Batch 1999], Speed: 152.798 samples/sec, CrossEntropy=3.519, SmoothL1=2.077
+[Epoch 5][Batch 2099], Speed: 161.086 samples/sec, CrossEntropy=3.518, SmoothL1=2.076
+[Epoch 5][Batch 2199], Speed: 148.409 samples/sec, CrossEntropy=3.517, SmoothL1=2.075
+[Epoch 5][Batch 2299], Speed: 163.985 samples/sec, CrossEntropy=3.517, SmoothL1=2.074
+[Epoch 5][Batch 2399], Speed: 154.601 samples/sec, CrossEntropy=3.515, SmoothL1=2.073
+[Epoch 5][Batch 2499], Speed: 158.853 samples/sec, CrossEntropy=3.514, SmoothL1=2.072
+[Epoch 5][Batch 2599], Speed: 146.928 samples/sec, CrossEntropy=3.513, SmoothL1=2.071
+[Epoch 5][Batch 2699], Speed: 140.584 samples/sec, CrossEntropy=3.514, SmoothL1=2.072
+[Epoch 5][Batch 2799], Speed: 151.050 samples/sec, CrossEntropy=3.514, SmoothL1=2.072
+[Epoch 5][Batch 2899], Speed: 159.835 samples/sec, CrossEntropy=3.514, SmoothL1=2.071
+[Epoch 5][Batch 2999], Speed: 143.911 samples/sec, CrossEntropy=3.513, SmoothL1=2.068
+[Epoch 5][Batch 3099], Speed: 166.389 samples/sec, CrossEntropy=3.513, SmoothL1=2.069
+[Epoch 5][Batch 3199], Speed: 145.352 samples/sec, CrossEntropy=3.511, SmoothL1=2.068
+[Epoch 5][Batch 3299], Speed: 152.676 samples/sec, CrossEntropy=3.511, SmoothL1=2.069
+[Epoch 5][Batch 3399], Speed: 152.333 samples/sec, CrossEntropy=3.512, SmoothL1=2.068
+[Epoch 5][Batch 3499], Speed: 153.215 samples/sec, CrossEntropy=3.512, SmoothL1=2.067
+[Epoch 5][Batch 3599], Speed: 153.622 samples/sec, CrossEntropy=3.511, SmoothL1=2.067
+[Epoch 5] Training cost: 770.264, CrossEntropy=3.510, SmoothL1=2.067
+[Epoch 6][Batch 99], Speed: 134.966 samples/sec, CrossEntropy=3.455, SmoothL1=2.091
+[Epoch 6][Batch 199], Speed: 153.083 samples/sec, CrossEntropy=3.487, SmoothL1=2.093
+[Epoch 6][Batch 299], Speed: 149.282 samples/sec, CrossEntropy=3.481, SmoothL1=2.096
+[Epoch 6][Batch 399], Speed: 145.028 samples/sec, CrossEntropy=3.481, SmoothL1=2.075
+[Epoch 6][Batch 499], Speed: 153.549 samples/sec, CrossEntropy=3.474, SmoothL1=2.060
+[Epoch 6][Batch 599], Speed: 138.264 samples/sec, CrossEntropy=3.471, SmoothL1=2.045
+[Epoch 6][Batch 699], Speed: 148.971 samples/sec, CrossEntropy=3.465, SmoothL1=2.034
+[Epoch 6][Batch 799], Speed: 149.377 samples/sec, CrossEntropy=3.463, SmoothL1=2.032
+[Epoch 6][Batch 899], Speed: 169.806 samples/sec, CrossEntropy=3.460, SmoothL1=2.033
+[Epoch 6][Batch 999], Speed: 167.552 samples/sec, CrossEntropy=3.460, SmoothL1=2.033
+[Epoch 6][Batch 1099], Speed: 159.819 samples/sec, CrossEntropy=3.462, SmoothL1=2.034
+[Epoch 6][Batch 1199], Speed: 161.285 samples/sec, CrossEntropy=3.461, SmoothL1=2.031
+[Epoch 6][Batch 1299], Speed: 157.705 samples/sec, CrossEntropy=3.462, SmoothL1=2.027
+[Epoch 6][Batch 1399], Speed: 149.814 samples/sec, CrossEntropy=3.458, SmoothL1=2.022
+[Epoch 6][Batch 1499], Speed: 148.994 samples/sec, CrossEntropy=3.457, SmoothL1=2.019
+[Epoch 6][Batch 1599], Speed: 153.491 samples/sec, CrossEntropy=3.456, SmoothL1=2.018
+[Epoch 6][Batch 1699], Speed: 149.673 samples/sec, CrossEntropy=3.454, SmoothL1=2.018
+[Epoch 6][Batch 1799], Speed: 140.136 samples/sec, CrossEntropy=3.453, SmoothL1=2.018
+[Epoch 6][Batch 1899], Speed: 139.873 samples/sec, CrossEntropy=3.454, SmoothL1=2.018
+[Epoch 6][Batch 1999], Speed: 156.144 samples/sec, CrossEntropy=3.453, SmoothL1=2.018
+[Epoch 6][Batch 2099], Speed: 159.880 samples/sec, CrossEntropy=3.452, SmoothL1=2.018
+[Epoch 6][Batch 2199], Speed: 144.860 samples/sec, CrossEntropy=3.453, SmoothL1=2.020
+[Epoch 6][Batch 2299], Speed: 132.066 samples/sec, CrossEntropy=3.453, SmoothL1=2.021
+[Epoch 6][Batch 2399], Speed: 155.692 samples/sec, CrossEntropy=3.453, SmoothL1=2.021
+[Epoch 6][Batch 2499], Speed: 143.354 samples/sec, CrossEntropy=3.452, SmoothL1=2.022
+[Epoch 6][Batch 2599], Speed: 161.151 samples/sec, CrossEntropy=3.452, SmoothL1=2.024
+[Epoch 6][Batch 2699], Speed: 143.977 samples/sec, CrossEntropy=3.451, SmoothL1=2.024
+[Epoch 6][Batch 2799], Speed: 146.601 samples/sec, CrossEntropy=3.450, SmoothL1=2.024
+[Epoch 6][Batch 2899], Speed: 136.031 samples/sec, CrossEntropy=3.450, SmoothL1=2.023
+[Epoch 6][Batch 2999], Speed: 137.878 samples/sec, CrossEntropy=3.449, SmoothL1=2.024
+[Epoch 6][Batch 3099], Speed: 159.371 samples/sec, CrossEntropy=3.448, SmoothL1=2.024
+[Epoch 6][Batch 3199], Speed: 164.383 samples/sec, CrossEntropy=3.448, SmoothL1=2.023
+[Epoch 6][Batch 3299], Speed: 157.550 samples/sec, CrossEntropy=3.446, SmoothL1=2.023
+[Epoch 6][Batch 3399], Speed: 138.873 samples/sec, CrossEntropy=3.446, SmoothL1=2.023
+[Epoch 6][Batch 3499], Speed: 164.863 samples/sec, CrossEntropy=3.446, SmoothL1=2.023
+[Epoch 6][Batch 3599], Speed: 165.810 samples/sec, CrossEntropy=3.444, SmoothL1=2.022
+[Epoch 6] Training cost: 803.689, CrossEntropy=3.443, SmoothL1=2.022
+[Epoch 7][Batch 99], Speed: 157.664 samples/sec, CrossEntropy=3.424, SmoothL1=1.986
+[Epoch 7][Batch 199], Speed: 146.736 samples/sec, CrossEntropy=3.437, SmoothL1=2.001
+[Epoch 7][Batch 299], Speed: 139.953 samples/sec, CrossEntropy=3.424, SmoothL1=2.011
+[Epoch 7][Batch 399], Speed: 151.591 samples/sec, CrossEntropy=3.418, SmoothL1=2.005
+[Epoch 7][Batch 499], Speed: 147.249 samples/sec, CrossEntropy=3.411, SmoothL1=2.009
+[Epoch 7][Batch 599], Speed: 161.348 samples/sec, CrossEntropy=3.418, SmoothL1=2.021
+[Epoch 7][Batch 699], Speed: 160.976 samples/sec, CrossEntropy=3.413, SmoothL1=2.017
+[Epoch 7][Batch 799], Speed: 146.348 samples/sec, CrossEntropy=3.419, SmoothL1=2.020
+[Epoch 7][Batch 899], Speed: 143.523 samples/sec, CrossEntropy=3.418, SmoothL1=2.017
+[Epoch 7][Batch 999], Speed: 150.886 samples/sec, CrossEntropy=3.417, SmoothL1=2.015
+[Epoch 7][Batch 1099], Speed: 159.124 samples/sec, CrossEntropy=3.412, SmoothL1=2.011
+[Epoch 7][Batch 1199], Speed: 152.899 samples/sec, CrossEntropy=3.410, SmoothL1=2.012
+[Epoch 7][Batch 1299], Speed: 155.844 samples/sec, CrossEntropy=3.408, SmoothL1=2.011
+[Epoch 7][Batch 1399], Speed: 147.856 samples/sec, CrossEntropy=3.406, SmoothL1=2.010
+[Epoch 7][Batch 1499], Speed: 148.956 samples/sec, CrossEntropy=3.403, SmoothL1=2.009
+[Epoch 7][Batch 1599], Speed: 152.455 samples/sec, CrossEntropy=3.403, SmoothL1=2.009
+[Epoch 7][Batch 1699], Speed: 149.872 samples/sec, CrossEntropy=3.402, SmoothL1=2.010
+[Epoch 7][Batch 1799], Speed: 143.946 samples/sec, CrossEntropy=3.403, SmoothL1=2.008
+[Epoch 7][Batch 1899], Speed: 156.971 samples/sec, CrossEntropy=3.402, SmoothL1=2.007
+[Epoch 7][Batch 1999], Speed: 161.063 samples/sec, CrossEntropy=3.402, SmoothL1=2.007
+[Epoch 7][Batch 2099], Speed: 144.226 samples/sec, CrossEntropy=3.401, SmoothL1=2.007
+[Epoch 7][Batch 2199], Speed: 153.150 samples/sec, CrossEntropy=3.400, SmoothL1=2.007
+[Epoch 7][Batch 2299], Speed: 152.705 samples/sec, CrossEntropy=3.401, SmoothL1=2.008
+[Epoch 7][Batch 2399], Speed: 160.244 samples/sec, CrossEntropy=3.400, SmoothL1=2.008
+[Epoch 7][Batch 2499], Speed: 146.188 samples/sec, CrossEntropy=3.399, SmoothL1=2.007
+[Epoch 7][Batch 2599], Speed: 141.580 samples/sec, CrossEntropy=3.399, SmoothL1=2.007
+[Epoch 7][Batch 2699], Speed: 146.600 samples/sec, CrossEntropy=3.402, SmoothL1=2.007
+[Epoch 7][Batch 2799], Speed: 157.753 samples/sec, CrossEntropy=3.402, SmoothL1=2.008
+[Epoch 7][Batch 2899], Speed: 147.392 samples/sec, CrossEntropy=3.402, SmoothL1=2.008
+[Epoch 7][Batch 2999], Speed: 152.243 samples/sec, CrossEntropy=3.402, SmoothL1=2.006
+[Epoch 7][Batch 3099], Speed: 150.715 samples/sec, CrossEntropy=3.402, SmoothL1=2.007
+[Epoch 7][Batch 3199], Speed: 154.937 samples/sec, CrossEntropy=3.402, SmoothL1=2.006
+[Epoch 7][Batch 3299], Speed: 168.170 samples/sec, CrossEntropy=3.403, SmoothL1=2.006
+[Epoch 7][Batch 3399], Speed: 153.708 samples/sec, CrossEntropy=3.402, SmoothL1=2.004
+[Epoch 7][Batch 3499], Speed: 142.016 samples/sec, CrossEntropy=3.402, SmoothL1=2.004
+[Epoch 7][Batch 3599], Speed: 156.351 samples/sec, CrossEntropy=3.400, SmoothL1=2.002
+[Epoch 7] Training cost: 789.874, CrossEntropy=3.400, SmoothL1=2.002
+[Epoch 8][Batch 99], Speed: 159.033 samples/sec, CrossEntropy=3.345, SmoothL1=1.973
+[Epoch 8][Batch 199], Speed: 174.845 samples/sec, CrossEntropy=3.353, SmoothL1=1.973
+[Epoch 8][Batch 299], Speed: 151.313 samples/sec, CrossEntropy=3.350, SmoothL1=1.964
+[Epoch 8][Batch 399], Speed: 170.924 samples/sec, CrossEntropy=3.359, SmoothL1=1.979
+[Epoch 8][Batch 499], Speed: 173.019 samples/sec, CrossEntropy=3.355, SmoothL1=1.973
+[Epoch 8][Batch 599], Speed: 158.894 samples/sec, CrossEntropy=3.351, SmoothL1=1.964
+[Epoch 8][Batch 699], Speed: 176.953 samples/sec, CrossEntropy=3.355, SmoothL1=1.962
+[Epoch 8][Batch 799], Speed: 167.236 samples/sec, CrossEntropy=3.358, SmoothL1=1.968
+[Epoch 8][Batch 899], Speed: 171.179 samples/sec, CrossEntropy=3.360, SmoothL1=1.973
+[Epoch 8][Batch 999], Speed: 155.639 samples/sec, CrossEntropy=3.362, SmoothL1=1.978
+[Epoch 8][Batch 1099], Speed: 145.166 samples/sec, CrossEntropy=3.362, SmoothL1=1.982
+[Epoch 8][Batch 1199], Speed: 166.787 samples/sec, CrossEntropy=3.361, SmoothL1=1.978
+[Epoch 8][Batch 1299], Speed: 163.402 samples/sec, CrossEntropy=3.363, SmoothL1=1.979
+[Epoch 8][Batch 1399], Speed: 182.176 samples/sec, CrossEntropy=3.364, SmoothL1=1.977
+[Epoch 8][Batch 1499], Speed: 164.398 samples/sec, CrossEntropy=3.366, SmoothL1=1.978
+[Epoch 8][Batch 1599], Speed: 146.239 samples/sec, CrossEntropy=3.366, SmoothL1=1.979
+[Epoch 8][Batch 1699], Speed: 148.112 samples/sec, CrossEntropy=3.367, SmoothL1=1.977
+[Epoch 8][Batch 1799], Speed: 149.434 samples/sec, CrossEntropy=3.369, SmoothL1=1.979
+[Epoch 8][Batch 1899], Speed: 176.358 samples/sec, CrossEntropy=3.367, SmoothL1=1.979
+[Epoch 8][Batch 1999], Speed: 174.434 samples/sec, CrossEntropy=3.367, SmoothL1=1.977
+[Epoch 8][Batch 2099], Speed: 140.646 samples/sec, CrossEntropy=3.364, SmoothL1=1.977
+[Epoch 8][Batch 2199], Speed: 142.994 samples/sec, CrossEntropy=3.363, SmoothL1=1.977
+[Epoch 8][Batch 2299], Speed: 161.719 samples/sec, CrossEntropy=3.361, SmoothL1=1.976
+[Epoch 8][Batch 2399], Speed: 160.560 samples/sec, CrossEntropy=3.360, SmoothL1=1.977
+[Epoch 8][Batch 2499], Speed: 161.793 samples/sec, CrossEntropy=3.361, SmoothL1=1.977
+[Epoch 8][Batch 2599], Speed: 153.784 samples/sec, CrossEntropy=3.359, SmoothL1=1.974
+[Epoch 8][Batch 2699], Speed: 145.899 samples/sec, CrossEntropy=3.358, SmoothL1=1.975
+[Epoch 8][Batch 2799], Speed: 158.602 samples/sec, CrossEntropy=3.357, SmoothL1=1.971
+[Epoch 8][Batch 2899], Speed: 172.718 samples/sec, CrossEntropy=3.356, SmoothL1=1.971
+[Epoch 8][Batch 2999], Speed: 159.519 samples/sec, CrossEntropy=3.357, SmoothL1=1.971
+[Epoch 8][Batch 3099], Speed: 154.422 samples/sec, CrossEntropy=3.356, SmoothL1=1.970
+[Epoch 8][Batch 3199], Speed: 145.821 samples/sec, CrossEntropy=3.355, SmoothL1=1.970
+[Epoch 8][Batch 3299], Speed: 158.093 samples/sec, CrossEntropy=3.354, SmoothL1=1.968
+[Epoch 8][Batch 3399], Speed: 142.429 samples/sec, CrossEntropy=3.354, SmoothL1=1.969
+[Epoch 8][Batch 3499], Speed: 160.407 samples/sec, CrossEntropy=3.353, SmoothL1=1.969
+[Epoch 8][Batch 3599], Speed: 147.849 samples/sec, CrossEntropy=3.353, SmoothL1=1.971
+[Epoch 8] Training cost: 766.993, CrossEntropy=3.353, SmoothL1=1.970
+[Epoch 9][Batch 99], Speed: 156.895 samples/sec, CrossEntropy=3.326, SmoothL1=1.937
+[Epoch 9][Batch 199], Speed: 157.762 samples/sec, CrossEntropy=3.316, SmoothL1=1.951
+[Epoch 9][Batch 299], Speed: 139.823 samples/sec, CrossEntropy=3.308, SmoothL1=1.940
+[Epoch 9][Batch 399], Speed: 166.755 samples/sec, CrossEntropy=3.309, SmoothL1=1.944
+[Epoch 9][Batch 499], Speed: 171.089 samples/sec, CrossEntropy=3.312, SmoothL1=1.964
+[Epoch 9][Batch 599], Speed: 178.513 samples/sec, CrossEntropy=3.317, SmoothL1=1.965
+[Epoch 9][Batch 699], Speed: 163.536 samples/sec, CrossEntropy=3.317, SmoothL1=1.967
+[Epoch 9][Batch 799], Speed: 169.650 samples/sec, CrossEntropy=3.323, SmoothL1=1.969
+[Epoch 9][Batch 899], Speed: 153.006 samples/sec, CrossEntropy=3.323, SmoothL1=1.961
+[Epoch 9][Batch 999], Speed: 139.896 samples/sec, CrossEntropy=3.322, SmoothL1=1.962
+[Epoch 9][Batch 1099], Speed: 144.246 samples/sec, CrossEntropy=3.326, SmoothL1=1.965
+[Epoch 9][Batch 1199], Speed: 143.520 samples/sec, CrossEntropy=3.323, SmoothL1=1.964
+[Epoch 9][Batch 1299], Speed: 172.927 samples/sec, CrossEntropy=3.324, SmoothL1=1.964
+[Epoch 9][Batch 1399], Speed: 159.385 samples/sec, CrossEntropy=3.326, SmoothL1=1.962
+[Epoch 9][Batch 1499], Speed: 175.172 samples/sec, CrossEntropy=3.324, SmoothL1=1.961
+[Epoch 9][Batch 1599], Speed: 152.092 samples/sec, CrossEntropy=3.323, SmoothL1=1.961
+[Epoch 9][Batch 1699], Speed: 143.013 samples/sec, CrossEntropy=3.322, SmoothL1=1.958
+[Epoch 9][Batch 1799], Speed: 158.632 samples/sec, CrossEntropy=3.320, SmoothL1=1.961
+[Epoch 9][Batch 1899], Speed: 167.753 samples/sec, CrossEntropy=3.320, SmoothL1=1.963
+[Epoch 9][Batch 1999], Speed: 158.841 samples/sec, CrossEntropy=3.321, SmoothL1=1.964
+[Epoch 9][Batch 2099], Speed: 140.196 samples/sec, CrossEntropy=3.322, SmoothL1=1.963
+[Epoch 9][Batch 2199], Speed: 148.264 samples/sec, CrossEntropy=3.322, SmoothL1=1.962
+[Epoch 9][Batch 2299], Speed: 168.459 samples/sec, CrossEntropy=3.319, SmoothL1=1.960
+[Epoch 9][Batch 2399], Speed: 147.204 samples/sec, CrossEntropy=3.319, SmoothL1=1.960
+[Epoch 9][Batch 2499], Speed: 143.850 samples/sec, CrossEntropy=3.319, SmoothL1=1.962
+[Epoch 9][Batch 2599], Speed: 139.437 samples/sec, CrossEntropy=3.319, SmoothL1=1.962
+[Epoch 9][Batch 2699], Speed: 154.466 samples/sec, CrossEntropy=3.318, SmoothL1=1.962
+[Epoch 9][Batch 2799], Speed: 147.176 samples/sec, CrossEntropy=3.320, SmoothL1=1.963
+[Epoch 9][Batch 2899], Speed: 157.359 samples/sec, CrossEntropy=3.319, SmoothL1=1.963
+[Epoch 9][Batch 2999], Speed: 156.805 samples/sec, CrossEntropy=3.320, SmoothL1=1.965
+[Epoch 9][Batch 3099], Speed: 148.430 samples/sec, CrossEntropy=3.320, SmoothL1=1.965
+[Epoch 9][Batch 3199], Speed: 156.194 samples/sec, CrossEntropy=3.321, SmoothL1=1.967
+[Epoch 9][Batch 3299], Speed: 152.490 samples/sec, CrossEntropy=3.320, SmoothL1=1.967
+[Epoch 9][Batch 3399], Speed: 162.146 samples/sec, CrossEntropy=3.319, SmoothL1=1.967
+[Epoch 9][Batch 3499], Speed: 145.656 samples/sec, CrossEntropy=3.320, SmoothL1=1.967
+[Epoch 9][Batch 3599], Speed: 149.959 samples/sec, CrossEntropy=3.318, SmoothL1=1.967
+[Epoch 9] Training cost: 764.828, CrossEntropy=3.318, SmoothL1=1.966
+[Epoch 10][Batch 99], Speed: 157.589 samples/sec, CrossEntropy=3.318, SmoothL1=1.938
+[Epoch 10][Batch 199], Speed: 148.827 samples/sec, CrossEntropy=3.309, SmoothL1=1.925
+[Epoch 10][Batch 299], Speed: 147.996 samples/sec, CrossEntropy=3.302, SmoothL1=1.920
+[Epoch 10][Batch 399], Speed: 148.618 samples/sec, CrossEntropy=3.301, SmoothL1=1.934
+[Epoch 10][Batch 499], Speed: 128.588 samples/sec, CrossEntropy=3.297, SmoothL1=1.938
+[Epoch 10][Batch 599], Speed: 157.422 samples/sec, CrossEntropy=3.296, SmoothL1=1.938
+[Epoch 10][Batch 699], Speed: 159.891 samples/sec, CrossEntropy=3.296, SmoothL1=1.939
+[Epoch 10][Batch 799], Speed: 148.883 samples/sec, CrossEntropy=3.291, SmoothL1=1.940
+[Epoch 10][Batch 899], Speed: 142.540 samples/sec, CrossEntropy=3.289, SmoothL1=1.938
+[Epoch 10][Batch 999], Speed: 159.767 samples/sec, CrossEntropy=3.293, SmoothL1=1.939
+[Epoch 10][Batch 1099], Speed: 147.581 samples/sec, CrossEntropy=3.292, SmoothL1=1.943
+[Epoch 10][Batch 1199], Speed: 157.743 samples/sec, CrossEntropy=3.290, SmoothL1=1.943
+[Epoch 10][Batch 1299], Speed: 178.901 samples/sec, CrossEntropy=3.290, SmoothL1=1.942
+[Epoch 10][Batch 1399], Speed: 141.027 samples/sec, CrossEntropy=3.289, SmoothL1=1.941
+[Epoch 10][Batch 1499], Speed: 163.079 samples/sec, CrossEntropy=3.290, SmoothL1=1.941
+[Epoch 10][Batch 1599], Speed: 149.470 samples/sec, CrossEntropy=3.290, SmoothL1=1.941
+[Epoch 10][Batch 1699], Speed: 152.061 samples/sec, CrossEntropy=3.289, SmoothL1=1.943
+[Epoch 10][Batch 1799], Speed: 153.197 samples/sec, CrossEntropy=3.289, SmoothL1=1.942
+[Epoch 10][Batch 1899], Speed: 162.529 samples/sec, CrossEntropy=3.289, SmoothL1=1.943
+[Epoch 10][Batch 1999], Speed: 159.887 samples/sec, CrossEntropy=3.289, SmoothL1=1.944
+[Epoch 10][Batch 2099], Speed: 147.411 samples/sec, CrossEntropy=3.288, SmoothL1=1.945
+[Epoch 10][Batch 2199], Speed: 165.916 samples/sec, CrossEntropy=3.288, SmoothL1=1.946
+[Epoch 10][Batch 2299], Speed: 152.278 samples/sec, CrossEntropy=3.287, SmoothL1=1.948
+[Epoch 10][Batch 2399], Speed: 145.502 samples/sec, CrossEntropy=3.287, SmoothL1=1.946
+[Epoch 10][Batch 2499], Speed: 152.408 samples/sec, CrossEntropy=3.289, SmoothL1=1.948
+[Epoch 10][Batch 2599], Speed: 155.197 samples/sec, CrossEntropy=3.289, SmoothL1=1.948
+[Epoch 10][Batch 2699], Speed: 144.467 samples/sec, CrossEntropy=3.290, SmoothL1=1.949
+[Epoch 10][Batch 2799], Speed: 155.080 samples/sec, CrossEntropy=3.289, SmoothL1=1.947
+[Epoch 10][Batch 2899], Speed: 149.905 samples/sec, CrossEntropy=3.289, SmoothL1=1.945
+[Epoch 10][Batch 2999], Speed: 149.643 samples/sec, CrossEntropy=3.290, SmoothL1=1.944
+[Epoch 10][Batch 3099], Speed: 159.089 samples/sec, CrossEntropy=3.288, SmoothL1=1.944
+[Epoch 10][Batch 3199], Speed: 150.357 samples/sec, CrossEntropy=3.289, SmoothL1=1.944
+[Epoch 10][Batch 3299], Speed: 165.208 samples/sec, CrossEntropy=3.289, SmoothL1=1.944
+[Epoch 10][Batch 3399], Speed: 147.129 samples/sec, CrossEntropy=3.288, SmoothL1=1.943
+[Epoch 10][Batch 3499], Speed: 167.599 samples/sec, CrossEntropy=3.287, SmoothL1=1.942
+[Epoch 10][Batch 3599], Speed: 156.391 samples/sec, CrossEntropy=3.288, SmoothL1=1.940
+[Epoch 10] Training cost: 766.397, CrossEntropy=3.288, SmoothL1=1.940
+[Epoch 10] Validation: 
+~~~~ Summary metrics ~~~~
+=Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.165
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.334
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.150
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.042
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.274
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.176
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.282
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.315
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.431
+person=29.2
+bicycle=11.1
+car=17.4
+motorcycle=19.5
+airplane=36.2
+bus=36.9
+train=34.6
+truck=14.7
+boat=7.1
+traffic light=5.5
+fire hydrant=35.8
+stop sign=36.5
+parking meter=17.4
+bench=7.5
+bird=11.5
+cat=37.2
+dog=33.2
+horse=27.7
+sheep=19.7
+cow=23.4
+elephant=35.2
+bear=37.9
+zebra=39.5
+giraffe=37.3
+backpack=2.5
+umbrella=13.3
+handbag=1.5
+tie=8.5
+suitcase=9.4
+frisbee=25.6
+skis=5.1
+snowboard=7.1
+sports ball=10.4
+kite=12.4
+baseball bat=6.0
+baseball glove=8.8
+skateboard=16.7
+surfboard=9.9
+tennis racket=18.4
+bottle=10.3
+wine glass=10.7
+cup=15.1
+fork=5.5
+knife=2.0
+spoon=1.9
+bowl=18.6
+banana=7.7
+apple=7.6
+sandwich=17.3
+orange=12.8
+broccoli=8.1
+carrot=5.2
+hot dog=11.6
+pizza=27.1
+donut=17.7
+cake=15.2
+chair=8.2
+couch=23.9
+potted plant=6.4
+bed=20.7
+dining table=10.3
+toilet=30.0
+tv=34.3
+laptop=31.7
+mouse=28.9
+remote=2.7
+keyboard=20.6
+cell phone=10.7
+microwave=24.3
+oven=14.4
+toaster=0.0
+sink=11.9
+refrigerator=21.6
+book=1.8
+clock=22.8
+vase=11.9
+scissors=3.3
+teddy bear=19.8
+hair drier=0.0
+toothbrush=0.6
+~~~~ MeanAP @ IoU=[0.50,0.95] ~~~~
+=16.5
+[Epoch 11][Batch 99], Speed: 155.914 samples/sec, CrossEntropy=3.251, SmoothL1=1.873
+[Epoch 11][Batch 199], Speed: 146.974 samples/sec, CrossEntropy=3.262, SmoothL1=1.876
+[Epoch 11][Batch 299], Speed: 158.661 samples/sec, CrossEntropy=3.249, SmoothL1=1.884
+[Epoch 11][Batch 399], Speed: 144.647 samples/sec, CrossEntropy=3.247, SmoothL1=1.897
+[Epoch 11][Batch 499], Speed: 166.583 samples/sec, CrossEntropy=3.245, SmoothL1=1.900
+[Epoch 11][Batch 599], Speed: 158.818 samples/sec, CrossEntropy=3.247, SmoothL1=1.899
+[Epoch 11][Batch 699], Speed: 156.011 samples/sec, CrossEntropy=3.247, SmoothL1=1.902
+[Epoch 11][Batch 799], Speed: 138.003 samples/sec, CrossEntropy=3.249, SmoothL1=1.907
+[Epoch 11][Batch 899], Speed: 144.921 samples/sec, CrossEntropy=3.248, SmoothL1=1.903
+[Epoch 11][Batch 999], Speed: 143.832 samples/sec, CrossEntropy=3.247, SmoothL1=1.906
+[Epoch 11][Batch 1099], Speed: 148.267 samples/sec, CrossEntropy=3.247, SmoothL1=1.900
+[Epoch 11][Batch 1199], Speed: 143.698 samples/sec, CrossEntropy=3.249, SmoothL1=1.902
+[Epoch 11][Batch 1299], Speed: 150.047 samples/sec, CrossEntropy=3.249, SmoothL1=1.903
+[Epoch 11][Batch 1399], Speed: 171.546 samples/sec, CrossEntropy=3.251, SmoothL1=1.903
+[Epoch 11][Batch 1499], Speed: 151.901 samples/sec, CrossEntropy=3.252, SmoothL1=1.905
+[Epoch 11][Batch 1599], Speed: 142.749 samples/sec, CrossEntropy=3.252, SmoothL1=1.908
+[Epoch 11][Batch 1699], Speed: 145.089 samples/sec, CrossEntropy=3.251, SmoothL1=1.906
+[Epoch 11][Batch 1799], Speed: 161.089 samples/sec, CrossEntropy=3.252, SmoothL1=1.906
+[Epoch 11][Batch 1899], Speed: 141.115 samples/sec, CrossEntropy=3.252, SmoothL1=1.908
+[Epoch 11][Batch 1999], Speed: 144.248 samples/sec, CrossEntropy=3.252, SmoothL1=1.909
+[Epoch 11][Batch 2099], Speed: 157.158 samples/sec, CrossEntropy=3.250, SmoothL1=1.908
+[Epoch 11][Batch 2199], Speed: 156.212 samples/sec, CrossEntropy=3.252, SmoothL1=1.910
+[Epoch 11][Batch 2299], Speed: 146.876 samples/sec, CrossEntropy=3.252, SmoothL1=1.909
+[Epoch 11][Batch 2399], Speed: 151.943 samples/sec, CrossEntropy=3.253, SmoothL1=1.910
+[Epoch 11][Batch 2499], Speed: 156.761 samples/sec, CrossEntropy=3.256, SmoothL1=1.911
+[Epoch 11][Batch 2599], Speed: 150.170 samples/sec, CrossEntropy=3.256, SmoothL1=1.910
+[Epoch 11][Batch 2699], Speed: 161.833 samples/sec, CrossEntropy=3.254, SmoothL1=1.911
+[Epoch 11][Batch 2799], Speed: 155.704 samples/sec, CrossEntropy=3.255, SmoothL1=1.911
+[Epoch 11][Batch 2899], Speed: 161.255 samples/sec, CrossEntropy=3.254, SmoothL1=1.910
+[Epoch 11][Batch 2999], Speed: 154.477 samples/sec, CrossEntropy=3.254, SmoothL1=1.910
+[Epoch 11][Batch 3099], Speed: 141.127 samples/sec, CrossEntropy=3.253, SmoothL1=1.911
+[Epoch 11][Batch 3199], Speed: 156.708 samples/sec, CrossEntropy=3.254, SmoothL1=1.913
+[Epoch 11][Batch 3299], Speed: 149.678 samples/sec, CrossEntropy=3.255, SmoothL1=1.913
+[Epoch 11][Batch 3399], Speed: 149.035 samples/sec, CrossEntropy=3.256, SmoothL1=1.914
+[Epoch 11][Batch 3499], Speed: 148.029 samples/sec, CrossEntropy=3.256, SmoothL1=1.914
+[Epoch 11][Batch 3599], Speed: 153.213 samples/sec, CrossEntropy=3.255, SmoothL1=1.914
+[Epoch 11] Training cost: 765.864, CrossEntropy=3.255, SmoothL1=1.915
+[Epoch 12][Batch 99], Speed: 156.717 samples/sec, CrossEntropy=3.235, SmoothL1=1.902
+[Epoch 12][Batch 199], Speed: 162.272 samples/sec, CrossEntropy=3.248, SmoothL1=1.900
+[Epoch 12][Batch 299], Speed: 155.202 samples/sec, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 12][Batch 399], Speed: 161.671 samples/sec, CrossEntropy=3.245, SmoothL1=1.903
+[Epoch 12][Batch 499], Speed: 149.840 samples/sec, CrossEntropy=3.243, SmoothL1=1.903
+[Epoch 12][Batch 599], Speed: 153.375 samples/sec, CrossEntropy=3.247, SmoothL1=1.902
+[Epoch 12][Batch 699], Speed: 149.601 samples/sec, CrossEntropy=3.240, SmoothL1=1.897
+[Epoch 12][Batch 799], Speed: 152.095 samples/sec, CrossEntropy=3.240, SmoothL1=1.899
+[Epoch 12][Batch 899], Speed: 160.107 samples/sec, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 12][Batch 999], Speed: 163.551 samples/sec, CrossEntropy=3.238, SmoothL1=1.901
+[Epoch 12][Batch 1099], Speed: 160.468 samples/sec, CrossEntropy=3.242, SmoothL1=1.899
+[Epoch 12][Batch 1199], Speed: 151.283 samples/sec, CrossEntropy=3.240, SmoothL1=1.898
+[Epoch 12][Batch 1299], Speed: 141.277 samples/sec, CrossEntropy=3.239, SmoothL1=1.901
+[Epoch 12][Batch 1399], Speed: 159.401 samples/sec, CrossEntropy=3.238, SmoothL1=1.901
+[Epoch 12][Batch 1499], Speed: 157.777 samples/sec, CrossEntropy=3.238, SmoothL1=1.900
+[Epoch 12][Batch 1599], Speed: 163.016 samples/sec, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 12][Batch 1699], Speed: 151.445 samples/sec, CrossEntropy=3.234, SmoothL1=1.897
+[Epoch 12][Batch 1799], Speed: 155.042 samples/sec, CrossEntropy=3.233, SmoothL1=1.896
+[Epoch 12][Batch 1899], Speed: 150.287 samples/sec, CrossEntropy=3.236, SmoothL1=1.898
+[Epoch 12][Batch 1999], Speed: 140.581 samples/sec, CrossEntropy=3.236, SmoothL1=1.900
+[Epoch 12][Batch 2099], Speed: 159.368 samples/sec, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 12][Batch 2199], Speed: 163.057 samples/sec, CrossEntropy=3.235, SmoothL1=1.896
+[Epoch 12][Batch 2299], Speed: 157.568 samples/sec, CrossEntropy=3.235, SmoothL1=1.899
+[Epoch 12][Batch 2399], Speed: 154.171 samples/sec, CrossEntropy=3.233, SmoothL1=1.897
+[Epoch 12][Batch 2499], Speed: 158.525 samples/sec, CrossEntropy=3.233, SmoothL1=1.899
+[Epoch 12][Batch 2599], Speed: 154.299 samples/sec, CrossEntropy=3.235, SmoothL1=1.901
+[Epoch 12][Batch 2699], Speed: 149.527 samples/sec, CrossEntropy=3.234, SmoothL1=1.900
+[Epoch 12][Batch 2799], Speed: 162.607 samples/sec, CrossEntropy=3.234, SmoothL1=1.900
+[Epoch 12][Batch 2899], Speed: 150.989 samples/sec, CrossEntropy=3.234, SmoothL1=1.899
+[Epoch 12][Batch 2999], Speed: 158.415 samples/sec, CrossEntropy=3.234, SmoothL1=1.898
+[Epoch 12][Batch 3099], Speed: 151.524 samples/sec, CrossEntropy=3.234, SmoothL1=1.898
+[Epoch 12][Batch 3199], Speed: 144.741 samples/sec, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 12][Batch 3299], Speed: 159.307 samples/sec, CrossEntropy=3.236, SmoothL1=1.898
+[Epoch 12][Batch 3399], Speed: 161.345 samples/sec, CrossEntropy=3.235, SmoothL1=1.900
+[Epoch 12][Batch 3499], Speed: 150.575 samples/sec, CrossEntropy=3.235, SmoothL1=1.899
+[Epoch 12][Batch 3599], Speed: 157.731 samples/sec, CrossEntropy=3.235, SmoothL1=1.899
+[Epoch 12] Training cost: 766.791, CrossEntropy=3.235, SmoothL1=1.898
+[Epoch 13][Batch 99], Speed: 150.847 samples/sec, CrossEntropy=3.211, SmoothL1=1.893
+[Epoch 13][Batch 199], Speed: 151.524 samples/sec, CrossEntropy=3.216, SmoothL1=1.884
+[Epoch 13][Batch 299], Speed: 154.219 samples/sec, CrossEntropy=3.219, SmoothL1=1.914
+[Epoch 13][Batch 399], Speed: 154.819 samples/sec, CrossEntropy=3.218, SmoothL1=1.913
+[Epoch 13][Batch 499], Speed: 151.510 samples/sec, CrossEntropy=3.212, SmoothL1=1.895
+[Epoch 13][Batch 599], Speed: 135.937 samples/sec, CrossEntropy=3.214, SmoothL1=1.902
+[Epoch 13][Batch 699], Speed: 155.930 samples/sec, CrossEntropy=3.212, SmoothL1=1.900
+[Epoch 13][Batch 799], Speed: 149.320 samples/sec, CrossEntropy=3.215, SmoothL1=1.903
+[Epoch 13][Batch 899], Speed: 144.542 samples/sec, CrossEntropy=3.219, SmoothL1=1.905
+[Epoch 13][Batch 999], Speed: 151.936 samples/sec, CrossEntropy=3.218, SmoothL1=1.907
+[Epoch 13][Batch 1099], Speed: 138.768 samples/sec, CrossEntropy=3.215, SmoothL1=1.904
+[Epoch 13][Batch 1199], Speed: 147.860 samples/sec, CrossEntropy=3.218, SmoothL1=1.907
+[Epoch 13][Batch 1299], Speed: 146.018 samples/sec, CrossEntropy=3.221, SmoothL1=1.908
+[Epoch 13][Batch 1399], Speed: 140.835 samples/sec, CrossEntropy=3.223, SmoothL1=1.907
+[Epoch 13][Batch 1499], Speed: 154.417 samples/sec, CrossEntropy=3.222, SmoothL1=1.905
+[Epoch 13][Batch 1599], Speed: 170.300 samples/sec, CrossEntropy=3.221, SmoothL1=1.902
+[Epoch 13][Batch 1699], Speed: 137.622 samples/sec, CrossEntropy=3.220, SmoothL1=1.902
+[Epoch 13][Batch 1799], Speed: 159.175 samples/sec, CrossEntropy=3.220, SmoothL1=1.903
+[Epoch 13][Batch 1899], Speed: 170.636 samples/sec, CrossEntropy=3.221, SmoothL1=1.901
+[Epoch 13][Batch 1999], Speed: 174.902 samples/sec, CrossEntropy=3.220, SmoothL1=1.902
+[Epoch 13][Batch 2099], Speed: 155.713 samples/sec, CrossEntropy=3.222, SmoothL1=1.904
+[Epoch 13][Batch 2199], Speed: 152.586 samples/sec, CrossEntropy=3.221, SmoothL1=1.904
+[Epoch 13][Batch 2299], Speed: 154.771 samples/sec, CrossEntropy=3.220, SmoothL1=1.904
+[Epoch 13][Batch 2399], Speed: 156.844 samples/sec, CrossEntropy=3.219, SmoothL1=1.902
+[Epoch 13][Batch 2499], Speed: 153.286 samples/sec, CrossEntropy=3.219, SmoothL1=1.903
+[Epoch 13][Batch 2599], Speed: 146.486 samples/sec, CrossEntropy=3.218, SmoothL1=1.902
+[Epoch 13][Batch 2699], Speed: 152.558 samples/sec, CrossEntropy=3.217, SmoothL1=1.902
+[Epoch 13][Batch 2799], Speed: 150.593 samples/sec, CrossEntropy=3.216, SmoothL1=1.902
+[Epoch 13][Batch 2899], Speed: 130.850 samples/sec, CrossEntropy=3.217, SmoothL1=1.901
+[Epoch 13][Batch 2999], Speed: 147.157 samples/sec, CrossEntropy=3.216, SmoothL1=1.900
+[Epoch 13][Batch 3099], Speed: 152.384 samples/sec, CrossEntropy=3.215, SmoothL1=1.898
+[Epoch 13][Batch 3199], Speed: 136.881 samples/sec, CrossEntropy=3.215, SmoothL1=1.896
+[Epoch 13][Batch 3299], Speed: 151.707 samples/sec, CrossEntropy=3.214, SmoothL1=1.897
+[Epoch 13][Batch 3399], Speed: 173.151 samples/sec, CrossEntropy=3.214, SmoothL1=1.897
+[Epoch 13][Batch 3499], Speed: 151.205 samples/sec, CrossEntropy=3.214, SmoothL1=1.897
+[Epoch 13][Batch 3599], Speed: 146.266 samples/sec, CrossEntropy=3.214, SmoothL1=1.896
+[Epoch 13] Training cost: 767.406, CrossEntropy=3.213, SmoothL1=1.896
+[Epoch 14][Batch 99], Speed: 159.188 samples/sec, CrossEntropy=3.204, SmoothL1=1.836
+[Epoch 14][Batch 199], Speed: 175.102 samples/sec, CrossEntropy=3.216, SmoothL1=1.858
+[Epoch 14][Batch 299], Speed: 165.506 samples/sec, CrossEntropy=3.202, SmoothL1=1.851
+[Epoch 14][Batch 399], Speed: 147.482 samples/sec, CrossEntropy=3.197, SmoothL1=1.852
+[Epoch 14][Batch 499], Speed: 149.973 samples/sec, CrossEntropy=3.195, SmoothL1=1.860
+[Epoch 14][Batch 599], Speed: 156.194 samples/sec, CrossEntropy=3.199, SmoothL1=1.860
+[Epoch 14][Batch 699], Speed: 144.336 samples/sec, CrossEntropy=3.192, SmoothL1=1.855
+[Epoch 14][Batch 799], Speed: 143.445 samples/sec, CrossEntropy=3.189, SmoothL1=1.855
+[Epoch 14][Batch 899], Speed: 147.313 samples/sec, CrossEntropy=3.189, SmoothL1=1.855
+[Epoch 14][Batch 999], Speed: 161.203 samples/sec, CrossEntropy=3.188, SmoothL1=1.855
+[Epoch 14][Batch 1099], Speed: 151.213 samples/sec, CrossEntropy=3.190, SmoothL1=1.859
+[Epoch 14][Batch 1199], Speed: 138.517 samples/sec, CrossEntropy=3.190, SmoothL1=1.863
+[Epoch 14][Batch 1299], Speed: 150.683 samples/sec, CrossEntropy=3.191, SmoothL1=1.869
+[Epoch 14][Batch 1399], Speed: 148.329 samples/sec, CrossEntropy=3.190, SmoothL1=1.869
+[Epoch 14][Batch 1499], Speed: 168.464 samples/sec, CrossEntropy=3.193, SmoothL1=1.869
+[Epoch 14][Batch 1599], Speed: 144.254 samples/sec, CrossEntropy=3.193, SmoothL1=1.869
+[Epoch 14][Batch 1699], Speed: 167.906 samples/sec, CrossEntropy=3.196, SmoothL1=1.871
+[Epoch 14][Batch 1799], Speed: 156.632 samples/sec, CrossEntropy=3.194, SmoothL1=1.869
+[Epoch 14][Batch 1899], Speed: 152.405 samples/sec, CrossEntropy=3.194, SmoothL1=1.868
+[Epoch 14][Batch 1999], Speed: 151.799 samples/sec, CrossEntropy=3.192, SmoothL1=1.865
+[Epoch 14][Batch 2099], Speed: 143.449 samples/sec, CrossEntropy=3.192, SmoothL1=1.865
+[Epoch 14][Batch 2199], Speed: 150.865 samples/sec, CrossEntropy=3.192, SmoothL1=1.867
+[Epoch 14][Batch 2299], Speed: 157.543 samples/sec, CrossEntropy=3.192, SmoothL1=1.862
+[Epoch 14][Batch 2399], Speed: 154.395 samples/sec, CrossEntropy=3.192, SmoothL1=1.864
+[Epoch 14][Batch 2499], Speed: 170.523 samples/sec, CrossEntropy=3.193, SmoothL1=1.864
+[Epoch 14][Batch 2599], Speed: 160.862 samples/sec, CrossEntropy=3.192, SmoothL1=1.865
+[Epoch 14][Batch 2699], Speed: 153.700 samples/sec, CrossEntropy=3.192, SmoothL1=1.866
+[Epoch 14][Batch 2799], Speed: 150.916 samples/sec, CrossEntropy=3.192, SmoothL1=1.866
+[Epoch 14][Batch 2899], Speed: 155.530 samples/sec, CrossEntropy=3.192, SmoothL1=1.868
+[Epoch 14][Batch 2999], Speed: 159.233 samples/sec, CrossEntropy=3.192, SmoothL1=1.869
+[Epoch 14][Batch 3099], Speed: 145.527 samples/sec, CrossEntropy=3.191, SmoothL1=1.870
+[Epoch 14][Batch 3199], Speed: 159.113 samples/sec, CrossEntropy=3.191, SmoothL1=1.870
+[Epoch 14][Batch 3299], Speed: 134.579 samples/sec, CrossEntropy=3.192, SmoothL1=1.872
+[Epoch 14][Batch 3399], Speed: 152.754 samples/sec, CrossEntropy=3.192, SmoothL1=1.870
+[Epoch 14][Batch 3499], Speed: 149.081 samples/sec, CrossEntropy=3.192, SmoothL1=1.872
+[Epoch 14][Batch 3599], Speed: 141.320 samples/sec, CrossEntropy=3.192, SmoothL1=1.873
+[Epoch 14] Training cost: 771.093, CrossEntropy=3.192, SmoothL1=1.873
+[Epoch 15][Batch 99], Speed: 153.751 samples/sec, CrossEntropy=3.171, SmoothL1=1.841
+[Epoch 15][Batch 199], Speed: 162.749 samples/sec, CrossEntropy=3.179, SmoothL1=1.877
+[Epoch 15][Batch 299], Speed: 140.621 samples/sec, CrossEntropy=3.167, SmoothL1=1.855
+[Epoch 15][Batch 399], Speed: 152.714 samples/sec, CrossEntropy=3.166, SmoothL1=1.858
+[Epoch 15][Batch 499], Speed: 154.857 samples/sec, CrossEntropy=3.166, SmoothL1=1.855
+[Epoch 15][Batch 599], Speed: 162.324 samples/sec, CrossEntropy=3.167, SmoothL1=1.853
+[Epoch 15][Batch 699], Speed: 161.584 samples/sec, CrossEntropy=3.173, SmoothL1=1.859
+[Epoch 15][Batch 799], Speed: 169.814 samples/sec, CrossEntropy=3.170, SmoothL1=1.864
+[Epoch 15][Batch 899], Speed: 157.028 samples/sec, CrossEntropy=3.165, SmoothL1=1.863
+[Epoch 15][Batch 999], Speed: 176.692 samples/sec, CrossEntropy=3.168, SmoothL1=1.860
+[Epoch 15][Batch 1099], Speed: 163.063 samples/sec, CrossEntropy=3.170, SmoothL1=1.865
+[Epoch 15][Batch 1199], Speed: 150.463 samples/sec, CrossEntropy=3.171, SmoothL1=1.867
+[Epoch 15][Batch 1299], Speed: 152.746 samples/sec, CrossEntropy=3.174, SmoothL1=1.871
+[Epoch 15][Batch 1399], Speed: 151.519 samples/sec, CrossEntropy=3.175, SmoothL1=1.871
+[Epoch 15][Batch 1499], Speed: 146.871 samples/sec, CrossEntropy=3.175, SmoothL1=1.870
+[Epoch 15][Batch 1599], Speed: 147.519 samples/sec, CrossEntropy=3.176, SmoothL1=1.873
+[Epoch 15][Batch 1699], Speed: 147.347 samples/sec, CrossEntropy=3.175, SmoothL1=1.870
+[Epoch 15][Batch 1799], Speed: 160.400 samples/sec, CrossEntropy=3.174, SmoothL1=1.869
+[Epoch 15][Batch 1899], Speed: 152.719 samples/sec, CrossEntropy=3.174, SmoothL1=1.867
+[Epoch 15][Batch 1999], Speed: 145.616 samples/sec, CrossEntropy=3.175, SmoothL1=1.868
+[Epoch 15][Batch 2099], Speed: 158.711 samples/sec, CrossEntropy=3.174, SmoothL1=1.867
+[Epoch 15][Batch 2199], Speed: 150.747 samples/sec, CrossEntropy=3.174, SmoothL1=1.866
+[Epoch 15][Batch 2299], Speed: 146.908 samples/sec, CrossEntropy=3.174, SmoothL1=1.865
+[Epoch 15][Batch 2399], Speed: 179.941 samples/sec, CrossEntropy=3.175, SmoothL1=1.864
+[Epoch 15][Batch 2499], Speed: 140.333 samples/sec, CrossEntropy=3.174, SmoothL1=1.864
+[Epoch 15][Batch 2599], Speed: 153.731 samples/sec, CrossEntropy=3.175, SmoothL1=1.865
+[Epoch 15][Batch 2699], Speed: 156.491 samples/sec, CrossEntropy=3.176, SmoothL1=1.865
+[Epoch 15][Batch 2799], Speed: 145.590 samples/sec, CrossEntropy=3.174, SmoothL1=1.865
+[Epoch 15][Batch 2899], Speed: 155.882 samples/sec, CrossEntropy=3.174, SmoothL1=1.866
+[Epoch 15][Batch 2999], Speed: 144.684 samples/sec, CrossEntropy=3.173, SmoothL1=1.865
+[Epoch 15][Batch 3099], Speed: 162.962 samples/sec, CrossEntropy=3.174, SmoothL1=1.865
+[Epoch 15][Batch 3199], Speed: 152.295 samples/sec, CrossEntropy=3.174, SmoothL1=1.865
+[Epoch 15][Batch 3299], Speed: 151.495 samples/sec, CrossEntropy=3.173, SmoothL1=1.865
+[Epoch 15][Batch 3399], Speed: 154.069 samples/sec, CrossEntropy=3.173, SmoothL1=1.864
+[Epoch 15][Batch 3499], Speed: 160.851 samples/sec, CrossEntropy=3.172, SmoothL1=1.864
+[Epoch 15][Batch 3599], Speed: 145.762 samples/sec, CrossEntropy=3.173, SmoothL1=1.863
+[Epoch 15] Training cost: 774.078, CrossEntropy=3.172, SmoothL1=1.863
+[Epoch 16][Batch 99], Speed: 159.284 samples/sec, CrossEntropy=3.181, SmoothL1=1.840
+[Epoch 16][Batch 199], Speed: 154.616 samples/sec, CrossEntropy=3.188, SmoothL1=1.857
+[Epoch 16][Batch 299], Speed: 143.371 samples/sec, CrossEntropy=3.167, SmoothL1=1.842
+[Epoch 16][Batch 399], Speed: 161.404 samples/sec, CrossEntropy=3.161, SmoothL1=1.847
+[Epoch 16][Batch 499], Speed: 151.559 samples/sec, CrossEntropy=3.160, SmoothL1=1.858
+[Epoch 16][Batch 599], Speed: 147.343 samples/sec, CrossEntropy=3.151, SmoothL1=1.857
+[Epoch 16][Batch 699], Speed: 147.086 samples/sec, CrossEntropy=3.147, SmoothL1=1.861
+[Epoch 16][Batch 799], Speed: 148.520 samples/sec, CrossEntropy=3.150, SmoothL1=1.859
+[Epoch 16][Batch 899], Speed: 149.445 samples/sec, CrossEntropy=3.156, SmoothL1=1.863
+[Epoch 16][Batch 999], Speed: 158.722 samples/sec, CrossEntropy=3.157, SmoothL1=1.861
+[Epoch 16][Batch 1099], Speed: 156.216 samples/sec, CrossEntropy=3.155, SmoothL1=1.864
+[Epoch 16][Batch 1199], Speed: 145.105 samples/sec, CrossEntropy=3.151, SmoothL1=1.863
+[Epoch 16][Batch 1299], Speed: 144.897 samples/sec, CrossEntropy=3.153, SmoothL1=1.863
+[Epoch 16][Batch 1399], Speed: 149.383 samples/sec, CrossEntropy=3.151, SmoothL1=1.859
+[Epoch 16][Batch 1499], Speed: 151.672 samples/sec, CrossEntropy=3.152, SmoothL1=1.862
+[Epoch 16][Batch 1599], Speed: 138.948 samples/sec, CrossEntropy=3.152, SmoothL1=1.864
+[Epoch 16][Batch 1699], Speed: 145.991 samples/sec, CrossEntropy=3.154, SmoothL1=1.863
+[Epoch 16][Batch 1799], Speed: 157.415 samples/sec, CrossEntropy=3.154, SmoothL1=1.862
+[Epoch 16][Batch 1899], Speed: 150.608 samples/sec, CrossEntropy=3.154, SmoothL1=1.862
+[Epoch 16][Batch 1999], Speed: 158.275 samples/sec, CrossEntropy=3.153, SmoothL1=1.862
+[Epoch 16][Batch 2099], Speed: 146.622 samples/sec, CrossEntropy=3.155, SmoothL1=1.862
+[Epoch 16][Batch 2199], Speed: 143.960 samples/sec, CrossEntropy=3.156, SmoothL1=1.861
+[Epoch 16][Batch 2299], Speed: 149.009 samples/sec, CrossEntropy=3.157, SmoothL1=1.860
+[Epoch 16][Batch 2399], Speed: 166.154 samples/sec, CrossEntropy=3.156, SmoothL1=1.862
+[Epoch 16][Batch 2499], Speed: 163.134 samples/sec, CrossEntropy=3.156, SmoothL1=1.861
+[Epoch 16][Batch 2599], Speed: 142.364 samples/sec, CrossEntropy=3.154, SmoothL1=1.860
+[Epoch 16][Batch 2699], Speed: 165.153 samples/sec, CrossEntropy=3.155, SmoothL1=1.861
+[Epoch 16][Batch 2799], Speed: 146.584 samples/sec, CrossEntropy=3.156, SmoothL1=1.861
+[Epoch 16][Batch 2899], Speed: 138.543 samples/sec, CrossEntropy=3.156, SmoothL1=1.861
+[Epoch 16][Batch 2999], Speed: 140.053 samples/sec, CrossEntropy=3.157, SmoothL1=1.861
+[Epoch 16][Batch 3099], Speed: 139.940 samples/sec, CrossEntropy=3.156, SmoothL1=1.859
+[Epoch 16][Batch 3199], Speed: 147.169 samples/sec, CrossEntropy=3.158, SmoothL1=1.861
+[Epoch 16][Batch 3299], Speed: 161.948 samples/sec, CrossEntropy=3.158, SmoothL1=1.860
+[Epoch 16][Batch 3399], Speed: 157.149 samples/sec, CrossEntropy=3.158, SmoothL1=1.859
+[Epoch 16][Batch 3499], Speed: 171.673 samples/sec, CrossEntropy=3.158, SmoothL1=1.858
+[Epoch 16][Batch 3599], Speed: 163.436 samples/sec, CrossEntropy=3.158, SmoothL1=1.857
+[Epoch 16] Training cost: 771.362, CrossEntropy=3.158, SmoothL1=1.857
+[Epoch 17][Batch 99], Speed: 163.416 samples/sec, CrossEntropy=3.187, SmoothL1=1.857
+[Epoch 17][Batch 199], Speed: 160.439 samples/sec, CrossEntropy=3.157, SmoothL1=1.844
+[Epoch 17][Batch 299], Speed: 139.262 samples/sec, CrossEntropy=3.151, SmoothL1=1.836
+[Epoch 17][Batch 399], Speed: 143.049 samples/sec, CrossEntropy=3.147, SmoothL1=1.834
+[Epoch 17][Batch 499], Speed: 154.215 samples/sec, CrossEntropy=3.146, SmoothL1=1.841
+[Epoch 17][Batch 599], Speed: 157.976 samples/sec, CrossEntropy=3.142, SmoothL1=1.843
+[Epoch 17][Batch 699], Speed: 160.742 samples/sec, CrossEntropy=3.142, SmoothL1=1.838
+[Epoch 17][Batch 799], Speed: 143.609 samples/sec, CrossEntropy=3.143, SmoothL1=1.834
+[Epoch 17][Batch 899], Speed: 142.645 samples/sec, CrossEntropy=3.144, SmoothL1=1.835
+[Epoch 17][Batch 999], Speed: 132.155 samples/sec, CrossEntropy=3.143, SmoothL1=1.837
+[Epoch 17][Batch 1099], Speed: 163.332 samples/sec, CrossEntropy=3.145, SmoothL1=1.839
+[Epoch 17][Batch 1199], Speed: 138.974 samples/sec, CrossEntropy=3.144, SmoothL1=1.838
+[Epoch 17][Batch 1299], Speed: 144.148 samples/sec, CrossEntropy=3.139, SmoothL1=1.836
+[Epoch 17][Batch 1399], Speed: 162.276 samples/sec, CrossEntropy=3.140, SmoothL1=1.838
+[Epoch 17][Batch 1499], Speed: 156.917 samples/sec, CrossEntropy=3.136, SmoothL1=1.837
+[Epoch 17][Batch 1599], Speed: 140.612 samples/sec, CrossEntropy=3.135, SmoothL1=1.833
+[Epoch 17][Batch 1699], Speed: 151.362 samples/sec, CrossEntropy=3.134, SmoothL1=1.831
+[Epoch 17][Batch 1799], Speed: 146.541 samples/sec, CrossEntropy=3.137, SmoothL1=1.830
+[Epoch 17][Batch 1899], Speed: 158.088 samples/sec, CrossEntropy=3.138, SmoothL1=1.828
+[Epoch 17][Batch 1999], Speed: 158.623 samples/sec, CrossEntropy=3.138, SmoothL1=1.829
+[Epoch 17][Batch 2099], Speed: 147.819 samples/sec, CrossEntropy=3.136, SmoothL1=1.830
+[Epoch 17][Batch 2199], Speed: 148.076 samples/sec, CrossEntropy=3.136, SmoothL1=1.831
+[Epoch 17][Batch 2299], Speed: 151.812 samples/sec, CrossEntropy=3.137, SmoothL1=1.830
+[Epoch 17][Batch 2399], Speed: 164.351 samples/sec, CrossEntropy=3.136, SmoothL1=1.829
+[Epoch 17][Batch 2499], Speed: 140.419 samples/sec, CrossEntropy=3.138, SmoothL1=1.830
+[Epoch 17][Batch 2599], Speed: 138.702 samples/sec, CrossEntropy=3.139, SmoothL1=1.831
+[Epoch 17][Batch 2699], Speed: 149.308 samples/sec, CrossEntropy=3.140, SmoothL1=1.832
+[Epoch 17][Batch 2799], Speed: 156.660 samples/sec, CrossEntropy=3.138, SmoothL1=1.832
+[Epoch 17][Batch 2899], Speed: 155.906 samples/sec, CrossEntropy=3.139, SmoothL1=1.833
+[Epoch 17][Batch 2999], Speed: 153.683 samples/sec, CrossEntropy=3.141, SmoothL1=1.834
+[Epoch 17][Batch 3099], Speed: 145.578 samples/sec, CrossEntropy=3.141, SmoothL1=1.833
+[Epoch 17][Batch 3199], Speed: 155.766 samples/sec, CrossEntropy=3.140, SmoothL1=1.834
+[Epoch 17][Batch 3299], Speed: 160.534 samples/sec, CrossEntropy=3.140, SmoothL1=1.835
+[Epoch 17][Batch 3399], Speed: 147.879 samples/sec, CrossEntropy=3.141, SmoothL1=1.835
+[Epoch 17][Batch 3499], Speed: 156.216 samples/sec, CrossEntropy=3.141, SmoothL1=1.835
+[Epoch 17][Batch 3599], Speed: 170.021 samples/sec, CrossEntropy=3.141, SmoothL1=1.835
+[Epoch 17] Training cost: 770.288, CrossEntropy=3.140, SmoothL1=1.834
+[Epoch 18][Batch 99], Speed: 139.563 samples/sec, CrossEntropy=3.064, SmoothL1=1.783
+[Epoch 18][Batch 199], Speed: 146.512 samples/sec, CrossEntropy=3.085, SmoothL1=1.818
+[Epoch 18][Batch 299], Speed: 169.494 samples/sec, CrossEntropy=3.088, SmoothL1=1.824
+[Epoch 18][Batch 399], Speed: 175.003 samples/sec, CrossEntropy=3.105, SmoothL1=1.818
+[Epoch 18][Batch 499], Speed: 144.984 samples/sec, CrossEntropy=3.103, SmoothL1=1.807
+[Epoch 18][Batch 599], Speed: 153.001 samples/sec, CrossEntropy=3.100, SmoothL1=1.804
+[Epoch 18][Batch 699], Speed: 158.760 samples/sec, CrossEntropy=3.097, SmoothL1=1.804
+[Epoch 18][Batch 799], Speed: 158.099 samples/sec, CrossEntropy=3.099, SmoothL1=1.808
+[Epoch 18][Batch 899], Speed: 155.404 samples/sec, CrossEntropy=3.102, SmoothL1=1.816
+[Epoch 18][Batch 999], Speed: 148.126 samples/sec, CrossEntropy=3.102, SmoothL1=1.813
+[Epoch 18][Batch 1099], Speed: 148.064 samples/sec, CrossEntropy=3.103, SmoothL1=1.811
+[Epoch 18][Batch 1199], Speed: 149.678 samples/sec, CrossEntropy=3.106, SmoothL1=1.810
+[Epoch 18][Batch 1299], Speed: 159.391 samples/sec, CrossEntropy=3.106, SmoothL1=1.814
+[Epoch 18][Batch 1399], Speed: 158.225 samples/sec, CrossEntropy=3.107, SmoothL1=1.816
+[Epoch 18][Batch 1499], Speed: 165.756 samples/sec, CrossEntropy=3.110, SmoothL1=1.816
+[Epoch 18][Batch 1599], Speed: 174.070 samples/sec, CrossEntropy=3.111, SmoothL1=1.817
+[Epoch 18][Batch 1699], Speed: 168.384 samples/sec, CrossEntropy=3.112, SmoothL1=1.816
+[Epoch 18][Batch 1799], Speed: 171.340 samples/sec, CrossEntropy=3.113, SmoothL1=1.815
+[Epoch 18][Batch 1899], Speed: 149.786 samples/sec, CrossEntropy=3.115, SmoothL1=1.817
+[Epoch 18][Batch 1999], Speed: 160.811 samples/sec, CrossEntropy=3.115, SmoothL1=1.817
+[Epoch 18][Batch 2099], Speed: 147.825 samples/sec, CrossEntropy=3.116, SmoothL1=1.816
+[Epoch 18][Batch 2199], Speed: 139.321 samples/sec, CrossEntropy=3.118, SmoothL1=1.817
+[Epoch 18][Batch 2299], Speed: 143.854 samples/sec, CrossEntropy=3.119, SmoothL1=1.818
+[Epoch 18][Batch 2399], Speed: 177.440 samples/sec, CrossEntropy=3.120, SmoothL1=1.818
+[Epoch 18][Batch 2499], Speed: 157.506 samples/sec, CrossEntropy=3.119, SmoothL1=1.818
+[Epoch 18][Batch 2599], Speed: 134.711 samples/sec, CrossEntropy=3.121, SmoothL1=1.817
+[Epoch 18][Batch 2699], Speed: 150.588 samples/sec, CrossEntropy=3.121, SmoothL1=1.818
+[Epoch 18][Batch 2799], Speed: 146.402 samples/sec, CrossEntropy=3.120, SmoothL1=1.819
+[Epoch 18][Batch 2899], Speed: 149.107 samples/sec, CrossEntropy=3.121, SmoothL1=1.819
+[Epoch 18][Batch 2999], Speed: 152.941 samples/sec, CrossEntropy=3.121, SmoothL1=1.819
+[Epoch 18][Batch 3099], Speed: 152.909 samples/sec, CrossEntropy=3.121, SmoothL1=1.821
+[Epoch 18][Batch 3199], Speed: 158.586 samples/sec, CrossEntropy=3.119, SmoothL1=1.822
+[Epoch 18][Batch 3299], Speed: 159.686 samples/sec, CrossEntropy=3.120, SmoothL1=1.821
+[Epoch 18][Batch 3399], Speed: 144.428 samples/sec, CrossEntropy=3.120, SmoothL1=1.821
+[Epoch 18][Batch 3499], Speed: 150.686 samples/sec, CrossEntropy=3.120, SmoothL1=1.822
+[Epoch 18][Batch 3599], Speed: 172.038 samples/sec, CrossEntropy=3.121, SmoothL1=1.822
+[Epoch 18] Training cost: 768.747, CrossEntropy=3.121, SmoothL1=1.822
+[Epoch 19][Batch 99], Speed: 146.171 samples/sec, CrossEntropy=3.068, SmoothL1=1.796
+[Epoch 19][Batch 199], Speed: 152.038 samples/sec, CrossEntropy=3.069, SmoothL1=1.800
+[Epoch 19][Batch 299], Speed: 172.517 samples/sec, CrossEntropy=3.089, SmoothL1=1.804
+[Epoch 19][Batch 399], Speed: 153.480 samples/sec, CrossEntropy=3.098, SmoothL1=1.796
+[Epoch 19][Batch 499], Speed: 165.306 samples/sec, CrossEntropy=3.090, SmoothL1=1.794
+[Epoch 19][Batch 599], Speed: 143.345 samples/sec, CrossEntropy=3.096, SmoothL1=1.800
+[Epoch 19][Batch 699], Speed: 151.841 samples/sec, CrossEntropy=3.098, SmoothL1=1.805
+[Epoch 19][Batch 799], Speed: 150.768 samples/sec, CrossEntropy=3.101, SmoothL1=1.803
+[Epoch 19][Batch 899], Speed: 138.118 samples/sec, CrossEntropy=3.099, SmoothL1=1.800
+[Epoch 19][Batch 999], Speed: 154.605 samples/sec, CrossEntropy=3.100, SmoothL1=1.798
+[Epoch 19][Batch 1099], Speed: 141.822 samples/sec, CrossEntropy=3.103, SmoothL1=1.799
+[Epoch 19][Batch 1199], Speed: 162.680 samples/sec, CrossEntropy=3.104, SmoothL1=1.801
+[Epoch 19][Batch 1299], Speed: 161.492 samples/sec, CrossEntropy=3.102, SmoothL1=1.799
+[Epoch 19][Batch 1399], Speed: 161.807 samples/sec, CrossEntropy=3.101, SmoothL1=1.803
+[Epoch 19][Batch 1499], Speed: 154.909 samples/sec, CrossEntropy=3.102, SmoothL1=1.803
+[Epoch 19][Batch 1599], Speed: 148.374 samples/sec, CrossEntropy=3.101, SmoothL1=1.803
+[Epoch 19][Batch 1699], Speed: 147.482 samples/sec, CrossEntropy=3.101, SmoothL1=1.803
+[Epoch 19][Batch 1799], Speed: 171.839 samples/sec, CrossEntropy=3.104, SmoothL1=1.805
+[Epoch 19][Batch 1899], Speed: 160.437 samples/sec, CrossEntropy=3.103, SmoothL1=1.810
+[Epoch 19][Batch 1999], Speed: 142.676 samples/sec, CrossEntropy=3.102, SmoothL1=1.812
+[Epoch 19][Batch 2099], Speed: 147.557 samples/sec, CrossEntropy=3.104, SmoothL1=1.813
+[Epoch 19][Batch 2199], Speed: 147.738 samples/sec, CrossEntropy=3.104, SmoothL1=1.811
+[Epoch 19][Batch 2299], Speed: 165.435 samples/sec, CrossEntropy=3.105, SmoothL1=1.811
+[Epoch 19][Batch 2399], Speed: 143.167 samples/sec, CrossEntropy=3.106, SmoothL1=1.812
+[Epoch 19][Batch 2499], Speed: 152.541 samples/sec, CrossEntropy=3.107, SmoothL1=1.812
+[Epoch 19][Batch 2599], Speed: 150.983 samples/sec, CrossEntropy=3.109, SmoothL1=1.814
+[Epoch 19][Batch 2699], Speed: 142.582 samples/sec, CrossEntropy=3.110, SmoothL1=1.815
+[Epoch 19][Batch 2799], Speed: 138.070 samples/sec, CrossEntropy=3.109, SmoothL1=1.814
+[Epoch 19][Batch 2899], Speed: 181.719 samples/sec, CrossEntropy=3.109, SmoothL1=1.815
+[Epoch 19][Batch 2999], Speed: 149.680 samples/sec, CrossEntropy=3.110, SmoothL1=1.816
+[Epoch 19][Batch 3099], Speed: 148.753 samples/sec, CrossEntropy=3.111, SmoothL1=1.817
+[Epoch 19][Batch 3199], Speed: 150.329 samples/sec, CrossEntropy=3.111, SmoothL1=1.817
+[Epoch 19][Batch 3299], Speed: 159.064 samples/sec, CrossEntropy=3.112, SmoothL1=1.816
+[Epoch 19][Batch 3399], Speed: 150.181 samples/sec, CrossEntropy=3.112, SmoothL1=1.816
+[Epoch 19][Batch 3499], Speed: 160.809 samples/sec, CrossEntropy=3.112, SmoothL1=1.816
+[Epoch 19][Batch 3599], Speed: 144.904 samples/sec, CrossEntropy=3.113, SmoothL1=1.817
+[Epoch 19] Training cost: 775.077, CrossEntropy=3.113, SmoothL1=1.818
+[Epoch 20][Batch 99], Speed: 159.864 samples/sec, CrossEntropy=3.089, SmoothL1=1.805
+[Epoch 20][Batch 199], Speed: 143.946 samples/sec, CrossEntropy=3.091, SmoothL1=1.791
+[Epoch 20][Batch 299], Speed: 165.728 samples/sec, CrossEntropy=3.094, SmoothL1=1.821
+[Epoch 20][Batch 399], Speed: 171.340 samples/sec, CrossEntropy=3.092, SmoothL1=1.824
+[Epoch 20][Batch 499], Speed: 158.030 samples/sec, CrossEntropy=3.086, SmoothL1=1.809
+[Epoch 20][Batch 599], Speed: 148.235 samples/sec, CrossEntropy=3.084, SmoothL1=1.803
+[Epoch 20][Batch 699], Speed: 151.124 samples/sec, CrossEntropy=3.088, SmoothL1=1.796
+[Epoch 20][Batch 799], Speed: 137.973 samples/sec, CrossEntropy=3.092, SmoothL1=1.793
+[Epoch 20][Batch 899], Speed: 147.176 samples/sec, CrossEntropy=3.092, SmoothL1=1.794
+[Epoch 20][Batch 999], Speed: 136.452 samples/sec, CrossEntropy=3.092, SmoothL1=1.797
+[Epoch 20][Batch 1099], Speed: 149.167 samples/sec, CrossEntropy=3.091, SmoothL1=1.797
+[Epoch 20][Batch 1199], Speed: 145.928 samples/sec, CrossEntropy=3.094, SmoothL1=1.800
+[Epoch 20][Batch 1299], Speed: 159.814 samples/sec, CrossEntropy=3.094, SmoothL1=1.801
+[Epoch 20][Batch 1399], Speed: 165.145 samples/sec, CrossEntropy=3.096, SmoothL1=1.806
+[Epoch 20][Batch 1499], Speed: 156.881 samples/sec, CrossEntropy=3.098, SmoothL1=1.806
+[Epoch 20][Batch 1599], Speed: 154.577 samples/sec, CrossEntropy=3.096, SmoothL1=1.809
+[Epoch 20][Batch 1699], Speed: 152.321 samples/sec, CrossEntropy=3.097, SmoothL1=1.808
+[Epoch 20][Batch 1799], Speed: 155.129 samples/sec, CrossEntropy=3.097, SmoothL1=1.811
+[Epoch 20][Batch 1899], Speed: 151.138 samples/sec, CrossEntropy=3.097, SmoothL1=1.811
+[Epoch 20][Batch 1999], Speed: 136.463 samples/sec, CrossEntropy=3.095, SmoothL1=1.810
+[Epoch 20][Batch 2099], Speed: 146.784 samples/sec, CrossEntropy=3.094, SmoothL1=1.809
+[Epoch 20][Batch 2199], Speed: 141.409 samples/sec, CrossEntropy=3.094, SmoothL1=1.809
+[Epoch 20][Batch 2299], Speed: 166.208 samples/sec, CrossEntropy=3.092, SmoothL1=1.808
+[Epoch 20][Batch 2399], Speed: 152.318 samples/sec, CrossEntropy=3.093, SmoothL1=1.809
+[Epoch 20][Batch 2499], Speed: 140.052 samples/sec, CrossEntropy=3.093, SmoothL1=1.809
+[Epoch 20][Batch 2599], Speed: 166.789 samples/sec, CrossEntropy=3.093, SmoothL1=1.808
+[Epoch 20][Batch 2699], Speed: 152.541 samples/sec, CrossEntropy=3.093, SmoothL1=1.807
+[Epoch 20][Batch 2799], Speed: 138.778 samples/sec, CrossEntropy=3.093, SmoothL1=1.806
+[Epoch 20][Batch 2899], Speed: 157.423 samples/sec, CrossEntropy=3.093, SmoothL1=1.805
+[Epoch 20][Batch 2999], Speed: 154.194 samples/sec, CrossEntropy=3.093, SmoothL1=1.804
+[Epoch 20][Batch 3099], Speed: 155.964 samples/sec, CrossEntropy=3.094, SmoothL1=1.806
+[Epoch 20][Batch 3199], Speed: 165.239 samples/sec, CrossEntropy=3.094, SmoothL1=1.806
+[Epoch 20][Batch 3299], Speed: 147.954 samples/sec, CrossEntropy=3.094, SmoothL1=1.805
+[Epoch 20][Batch 3399], Speed: 153.374 samples/sec, CrossEntropy=3.095, SmoothL1=1.805
+[Epoch 20][Batch 3499], Speed: 154.005 samples/sec, CrossEntropy=3.096, SmoothL1=1.805
+[Epoch 20][Batch 3599], Speed: 155.504 samples/sec, CrossEntropy=3.096, SmoothL1=1.804
+[Epoch 20] Training cost: 774.612, CrossEntropy=3.096, SmoothL1=1.805
+[Epoch 20] Validation: 
+~~~~ Summary metrics ~~~~
+=Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.186
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.358
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.176
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.049
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.311
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.195
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.291
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.304
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.088
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.484
+person=31.3
+bicycle=10.7
+car=18.5
+motorcycle=21.1
+airplane=34.1
+bus=41.5
+train=43.9
+truck=15.9
+boat=7.7
+traffic light=6.6
+fire hydrant=41.6
+stop sign=33.2
+parking meter=20.6
+bench=9.0
+bird=13.1
+cat=44.2
+dog=36.7
+horse=28.2
+sheep=23.1
+cow=25.2
+elephant=39.0
+bear=41.2
+zebra=42.7
+giraffe=40.3
+backpack=3.5
+umbrella=14.9
+handbag=1.8
+tie=11.2
+suitcase=10.4
+frisbee=28.2
+skis=7.0
+snowboard=7.5
+sports ball=16.1
+kite=10.6
+baseball bat=8.0
+baseball glove=11.8
+skateboard=21.2
+surfboard=15.1
+tennis racket=19.4
+bottle=11.0
+wine glass=10.5
+cup=17.3
+fork=7.4
+knife=2.8
+spoon=2.3
+bowl=20.4
+banana=5.4
+apple=6.8
+sandwich=18.1
+orange=16.9
+broccoli=9.1
+carrot=3.8
+hot dog=12.2
+pizza=32.4
+donut=18.8
+cake=13.9
+chair=10.2
+couch=22.0
+potted plant=6.7
+bed=22.5
+dining table=12.4
+toilet=35.4
+tv=37.5
+laptop=36.7
+mouse=26.4
+remote=6.2
+keyboard=27.5
+cell phone=14.2
+microwave=30.9
+oven=16.2
+toaster=0.0
+sink=15.3
+refrigerator=24.9
+book=2.1
+clock=27.4
+vase=11.1
+scissors=9.0
+teddy bear=23.1
+hair drier=0.0
+toothbrush=1.8
+~~~~ MeanAP @ IoU=[0.50,0.95] ~~~~
+=18.6
+[Epoch 21][Batch 99], Speed: 163.236 samples/sec, CrossEntropy=3.128, SmoothL1=1.819
+[Epoch 21][Batch 199], Speed: 157.122 samples/sec, CrossEntropy=3.109, SmoothL1=1.814
+[Epoch 21][Batch 299], Speed: 149.917 samples/sec, CrossEntropy=3.104, SmoothL1=1.808
+[Epoch 21][Batch 399], Speed: 146.445 samples/sec, CrossEntropy=3.104, SmoothL1=1.814
+[Epoch 21][Batch 499], Speed: 154.748 samples/sec, CrossEntropy=3.099, SmoothL1=1.822
+[Epoch 21][Batch 599], Speed: 149.131 samples/sec, CrossEntropy=3.102, SmoothL1=1.832
+[Epoch 21][Batch 699], Speed: 149.423 samples/sec, CrossEntropy=3.099, SmoothL1=1.835
+[Epoch 21][Batch 799], Speed: 152.481 samples/sec, CrossEntropy=3.095, SmoothL1=1.830
+[Epoch 21][Batch 899], Speed: 156.756 samples/sec, CrossEntropy=3.093, SmoothL1=1.830
+[Epoch 21][Batch 999], Speed: 140.581 samples/sec, CrossEntropy=3.095, SmoothL1=1.834
+[Epoch 21][Batch 1099], Speed: 159.718 samples/sec, CrossEntropy=3.094, SmoothL1=1.833
+[Epoch 21][Batch 1199], Speed: 157.133 samples/sec, CrossEntropy=3.094, SmoothL1=1.831
+[Epoch 21][Batch 1299], Speed: 155.524 samples/sec, CrossEntropy=3.095, SmoothL1=1.829
+[Epoch 21][Batch 1399], Speed: 144.614 samples/sec, CrossEntropy=3.095, SmoothL1=1.828
+[Epoch 21][Batch 1499], Speed: 164.956 samples/sec, CrossEntropy=3.095, SmoothL1=1.826
+[Epoch 21][Batch 1599], Speed: 155.321 samples/sec, CrossEntropy=3.094, SmoothL1=1.824
+[Epoch 21][Batch 1699], Speed: 139.333 samples/sec, CrossEntropy=3.092, SmoothL1=1.823
+[Epoch 21][Batch 1799], Speed: 137.787 samples/sec, CrossEntropy=3.092, SmoothL1=1.822
+[Epoch 21][Batch 1899], Speed: 156.732 samples/sec, CrossEntropy=3.093, SmoothL1=1.821
+[Epoch 21][Batch 1999], Speed: 153.813 samples/sec, CrossEntropy=3.091, SmoothL1=1.821
+[Epoch 21][Batch 2099], Speed: 153.866 samples/sec, CrossEntropy=3.092, SmoothL1=1.821
+[Epoch 21][Batch 2199], Speed: 145.071 samples/sec, CrossEntropy=3.092, SmoothL1=1.822
+[Epoch 21][Batch 2299], Speed: 169.413 samples/sec, CrossEntropy=3.091, SmoothL1=1.822
+[Epoch 21][Batch 2399], Speed: 155.373 samples/sec, CrossEntropy=3.093, SmoothL1=1.822
+[Epoch 21][Batch 2499], Speed: 155.663 samples/sec, CrossEntropy=3.092, SmoothL1=1.821
+[Epoch 21][Batch 2599], Speed: 151.725 samples/sec, CrossEntropy=3.092, SmoothL1=1.819
+[Epoch 21][Batch 2699], Speed: 149.901 samples/sec, CrossEntropy=3.092, SmoothL1=1.818
+[Epoch 21][Batch 2799], Speed: 150.548 samples/sec, CrossEntropy=3.091, SmoothL1=1.818
+[Epoch 21][Batch 2899], Speed: 150.999 samples/sec, CrossEntropy=3.090, SmoothL1=1.815
+[Epoch 21][Batch 2999], Speed: 146.703 samples/sec, CrossEntropy=3.092, SmoothL1=1.815
+[Epoch 21][Batch 3099], Speed: 151.359 samples/sec, CrossEntropy=3.091, SmoothL1=1.813
+[Epoch 21][Batch 3199], Speed: 150.720 samples/sec, CrossEntropy=3.092, SmoothL1=1.813
+[Epoch 21][Batch 3299], Speed: 148.766 samples/sec, CrossEntropy=3.092, SmoothL1=1.813
+[Epoch 21][Batch 3399], Speed: 145.142 samples/sec, CrossEntropy=3.093, SmoothL1=1.814
+[Epoch 21][Batch 3499], Speed: 153.811 samples/sec, CrossEntropy=3.092, SmoothL1=1.813
+[Epoch 21][Batch 3599], Speed: 158.190 samples/sec, CrossEntropy=3.092, SmoothL1=1.813
+[Epoch 21] Training cost: 774.535, CrossEntropy=3.092, SmoothL1=1.812
+[Epoch 22][Batch 99], Speed: 152.350 samples/sec, CrossEntropy=3.081, SmoothL1=1.812
+[Epoch 22][Batch 199], Speed: 152.140 samples/sec, CrossEntropy=3.074, SmoothL1=1.818
+[Epoch 22][Batch 299], Speed: 155.471 samples/sec, CrossEntropy=3.059, SmoothL1=1.816
+[Epoch 22][Batch 399], Speed: 149.152 samples/sec, CrossEntropy=3.048, SmoothL1=1.808
+[Epoch 22][Batch 499], Speed: 176.095 samples/sec, CrossEntropy=3.049, SmoothL1=1.811
+[Epoch 22][Batch 599], Speed: 153.274 samples/sec, CrossEntropy=3.057, SmoothL1=1.816
+[Epoch 22][Batch 699], Speed: 160.144 samples/sec, CrossEntropy=3.063, SmoothL1=1.812
+[Epoch 22][Batch 799], Speed: 141.779 samples/sec, CrossEntropy=3.066, SmoothL1=1.813
+[Epoch 22][Batch 899], Speed: 151.383 samples/sec, CrossEntropy=3.066, SmoothL1=1.803
+[Epoch 22][Batch 999], Speed: 137.400 samples/sec, CrossEntropy=3.067, SmoothL1=1.803
+[Epoch 22][Batch 1099], Speed: 152.137 samples/sec, CrossEntropy=3.069, SmoothL1=1.805
+[Epoch 22][Batch 1199], Speed: 171.715 samples/sec, CrossEntropy=3.072, SmoothL1=1.806
+[Epoch 22][Batch 1299], Speed: 153.551 samples/sec, CrossEntropy=3.072, SmoothL1=1.802
+[Epoch 22][Batch 1399], Speed: 140.602 samples/sec, CrossEntropy=3.071, SmoothL1=1.801
+[Epoch 22][Batch 1499], Speed: 176.862 samples/sec, CrossEntropy=3.073, SmoothL1=1.805
+[Epoch 22][Batch 1599], Speed: 152.081 samples/sec, CrossEntropy=3.073, SmoothL1=1.806
+[Epoch 22][Batch 1699], Speed: 144.372 samples/sec, CrossEntropy=3.075, SmoothL1=1.806
+[Epoch 22][Batch 1799], Speed: 159.332 samples/sec, CrossEntropy=3.074, SmoothL1=1.807
+[Epoch 22][Batch 1899], Speed: 165.532 samples/sec, CrossEntropy=3.074, SmoothL1=1.807
+[Epoch 22][Batch 1999], Speed: 147.860 samples/sec, CrossEntropy=3.076, SmoothL1=1.808
+[Epoch 22][Batch 2099], Speed: 152.659 samples/sec, CrossEntropy=3.077, SmoothL1=1.808
+[Epoch 22][Batch 2199], Speed: 139.839 samples/sec, CrossEntropy=3.075, SmoothL1=1.809
+[Epoch 22][Batch 2299], Speed: 144.311 samples/sec, CrossEntropy=3.075, SmoothL1=1.807
+[Epoch 22][Batch 2399], Speed: 163.861 samples/sec, CrossEntropy=3.075, SmoothL1=1.807
+[Epoch 22][Batch 2499], Speed: 156.926 samples/sec, CrossEntropy=3.076, SmoothL1=1.808
+[Epoch 22][Batch 2599], Speed: 158.929 samples/sec, CrossEntropy=3.074, SmoothL1=1.807
+[Epoch 22][Batch 2699], Speed: 142.180 samples/sec, CrossEntropy=3.074, SmoothL1=1.807
+[Epoch 22][Batch 2799], Speed: 146.942 samples/sec, CrossEntropy=3.073, SmoothL1=1.804
+[Epoch 22][Batch 2899], Speed: 155.268 samples/sec, CrossEntropy=3.074, SmoothL1=1.805
+[Epoch 22][Batch 2999], Speed: 158.064 samples/sec, CrossEntropy=3.074, SmoothL1=1.805
+[Epoch 22][Batch 3099], Speed: 158.794 samples/sec, CrossEntropy=3.074, SmoothL1=1.807
+[Epoch 22][Batch 3199], Speed: 157.617 samples/sec, CrossEntropy=3.075, SmoothL1=1.806
+[Epoch 22][Batch 3299], Speed: 162.276 samples/sec, CrossEntropy=3.075, SmoothL1=1.808
+[Epoch 22][Batch 3399], Speed: 158.784 samples/sec, CrossEntropy=3.075, SmoothL1=1.806
+[Epoch 22][Batch 3499], Speed: 142.738 samples/sec, CrossEntropy=3.076, SmoothL1=1.807
+[Epoch 22][Batch 3599], Speed: 148.751 samples/sec, CrossEntropy=3.076, SmoothL1=1.806
+[Epoch 22] Training cost: 770.057, CrossEntropy=3.075, SmoothL1=1.805
+[Epoch 23][Batch 99], Speed: 154.053 samples/sec, CrossEntropy=3.024, SmoothL1=1.738
+[Epoch 23][Batch 199], Speed: 159.517 samples/sec, CrossEntropy=3.039, SmoothL1=1.770
+[Epoch 23][Batch 299], Speed: 146.351 samples/sec, CrossEntropy=3.039, SmoothL1=1.774
+[Epoch 23][Batch 399], Speed: 141.879 samples/sec, CrossEntropy=3.043, SmoothL1=1.774
+[Epoch 23][Batch 499], Speed: 155.647 samples/sec, CrossEntropy=3.043, SmoothL1=1.777
+[Epoch 23][Batch 599], Speed: 173.317 samples/sec, CrossEntropy=3.040, SmoothL1=1.777
+[Epoch 23][Batch 699], Speed: 155.467 samples/sec, CrossEntropy=3.036, SmoothL1=1.774
+[Epoch 23][Batch 799], Speed: 167.032 samples/sec, CrossEntropy=3.037, SmoothL1=1.775
+[Epoch 23][Batch 899], Speed: 167.077 samples/sec, CrossEntropy=3.038, SmoothL1=1.775
+[Epoch 23][Batch 999], Speed: 152.250 samples/sec, CrossEntropy=3.041, SmoothL1=1.778
+[Epoch 23][Batch 1099], Speed: 153.419 samples/sec, CrossEntropy=3.043, SmoothL1=1.779
+[Epoch 23][Batch 1199], Speed: 152.948 samples/sec, CrossEntropy=3.046, SmoothL1=1.782
+[Epoch 23][Batch 1299], Speed: 164.938 samples/sec, CrossEntropy=3.049, SmoothL1=1.781
+[Epoch 23][Batch 1399], Speed: 167.383 samples/sec, CrossEntropy=3.048, SmoothL1=1.783
+[Epoch 23][Batch 1499], Speed: 133.205 samples/sec, CrossEntropy=3.050, SmoothL1=1.785
+[Epoch 23][Batch 1599], Speed: 146.350 samples/sec, CrossEntropy=3.050, SmoothL1=1.784
+[Epoch 23][Batch 1699], Speed: 146.131 samples/sec, CrossEntropy=3.052, SmoothL1=1.789
+[Epoch 23][Batch 1799], Speed: 141.242 samples/sec, CrossEntropy=3.052, SmoothL1=1.791
+[Epoch 23][Batch 1899], Speed: 137.168 samples/sec, CrossEntropy=3.054, SmoothL1=1.790
+[Epoch 23][Batch 1999], Speed: 150.797 samples/sec, CrossEntropy=3.056, SmoothL1=1.790
+[Epoch 23][Batch 2099], Speed: 163.160 samples/sec, CrossEntropy=3.059, SmoothL1=1.790
+[Epoch 23][Batch 2199], Speed: 142.860 samples/sec, CrossEntropy=3.060, SmoothL1=1.791
+[Epoch 23][Batch 2299], Speed: 152.996 samples/sec, CrossEntropy=3.062, SmoothL1=1.791
+[Epoch 23][Batch 2399], Speed: 147.082 samples/sec, CrossEntropy=3.062, SmoothL1=1.789
+[Epoch 23][Batch 2499], Speed: 152.352 samples/sec, CrossEntropy=3.063, SmoothL1=1.789
+[Epoch 23][Batch 2599], Speed: 170.901 samples/sec, CrossEntropy=3.063, SmoothL1=1.787
+[Epoch 23][Batch 2699], Speed: 163.593 samples/sec, CrossEntropy=3.064, SmoothL1=1.788
+[Epoch 23][Batch 2799], Speed: 152.149 samples/sec, CrossEntropy=3.065, SmoothL1=1.788
+[Epoch 23][Batch 2899], Speed: 148.165 samples/sec, CrossEntropy=3.065, SmoothL1=1.787
+[Epoch 23][Batch 2999], Speed: 164.290 samples/sec, CrossEntropy=3.064, SmoothL1=1.787
+[Epoch 23][Batch 3099], Speed: 145.455 samples/sec, CrossEntropy=3.064, SmoothL1=1.787
+[Epoch 23][Batch 3199], Speed: 147.325 samples/sec, CrossEntropy=3.063, SmoothL1=1.787
+[Epoch 23][Batch 3299], Speed: 153.943 samples/sec, CrossEntropy=3.063, SmoothL1=1.787
+[Epoch 23][Batch 3399], Speed: 162.186 samples/sec, CrossEntropy=3.061, SmoothL1=1.786
+[Epoch 23][Batch 3499], Speed: 146.520 samples/sec, CrossEntropy=3.061, SmoothL1=1.786
+[Epoch 23][Batch 3599], Speed: 174.307 samples/sec, CrossEntropy=3.061, SmoothL1=1.787
+[Epoch 23] Training cost: 764.568, CrossEntropy=3.061, SmoothL1=1.787
+[Epoch 24][Batch 99], Speed: 140.603 samples/sec, CrossEntropy=3.066, SmoothL1=1.755
+[Epoch 24][Batch 199], Speed: 148.854 samples/sec, CrossEntropy=3.046, SmoothL1=1.743
+[Epoch 24][Batch 299], Speed: 148.622 samples/sec, CrossEntropy=3.043, SmoothL1=1.738
+[Epoch 24][Batch 399], Speed: 132.613 samples/sec, CrossEntropy=3.040, SmoothL1=1.753
+[Epoch 24][Batch 499], Speed: 161.803 samples/sec, CrossEntropy=3.047, SmoothL1=1.760
+[Epoch 24][Batch 599], Speed: 162.410 samples/sec, CrossEntropy=3.046, SmoothL1=1.762
+[Epoch 24][Batch 699], Speed: 149.315 samples/sec, CrossEntropy=3.048, SmoothL1=1.757
+[Epoch 24][Batch 799], Speed: 149.387 samples/sec, CrossEntropy=3.051, SmoothL1=1.757
+[Epoch 24][Batch 899], Speed: 159.496 samples/sec, CrossEntropy=3.051, SmoothL1=1.760
+[Epoch 24][Batch 999], Speed: 165.982 samples/sec, CrossEntropy=3.051, SmoothL1=1.761
+[Epoch 24][Batch 1099], Speed: 148.175 samples/sec, CrossEntropy=3.050, SmoothL1=1.759
+[Epoch 24][Batch 1199], Speed: 151.148 samples/sec, CrossEntropy=3.053, SmoothL1=1.764
+[Epoch 24][Batch 1299], Speed: 145.842 samples/sec, CrossEntropy=3.053, SmoothL1=1.763
+[Epoch 24][Batch 1399], Speed: 172.439 samples/sec, CrossEntropy=3.054, SmoothL1=1.768
+[Epoch 24][Batch 1499], Speed: 149.801 samples/sec, CrossEntropy=3.057, SmoothL1=1.769
+[Epoch 24][Batch 1599], Speed: 149.898 samples/sec, CrossEntropy=3.056, SmoothL1=1.769
+[Epoch 24][Batch 1699], Speed: 151.794 samples/sec, CrossEntropy=3.055, SmoothL1=1.768
+[Epoch 24][Batch 1799], Speed: 161.724 samples/sec, CrossEntropy=3.056, SmoothL1=1.769
+[Epoch 24][Batch 1899], Speed: 162.395 samples/sec, CrossEntropy=3.054, SmoothL1=1.770
+[Epoch 24][Batch 1999], Speed: 155.065 samples/sec, CrossEntropy=3.054, SmoothL1=1.772
+[Epoch 24][Batch 2099], Speed: 152.002 samples/sec, CrossEntropy=3.054, SmoothL1=1.773
+[Epoch 24][Batch 2199], Speed: 154.318 samples/sec, CrossEntropy=3.052, SmoothL1=1.772
+[Epoch 24][Batch 2299], Speed: 158.156 samples/sec, CrossEntropy=3.052, SmoothL1=1.774
+[Epoch 24][Batch 2399], Speed: 146.993 samples/sec, CrossEntropy=3.054, SmoothL1=1.774
+[Epoch 24][Batch 2499], Speed: 149.755 samples/sec, CrossEntropy=3.053, SmoothL1=1.774
+[Epoch 24][Batch 2599], Speed: 141.405 samples/sec, CrossEntropy=3.053, SmoothL1=1.775
+[Epoch 24][Batch 2699], Speed: 151.524 samples/sec, CrossEntropy=3.053, SmoothL1=1.777
+[Epoch 24][Batch 2799], Speed: 145.959 samples/sec, CrossEntropy=3.052, SmoothL1=1.777
+[Epoch 24][Batch 2899], Speed: 170.171 samples/sec, CrossEntropy=3.051, SmoothL1=1.778
+[Epoch 24][Batch 2999], Speed: 137.145 samples/sec, CrossEntropy=3.051, SmoothL1=1.780
+[Epoch 24][Batch 3099], Speed: 151.915 samples/sec, CrossEntropy=3.051, SmoothL1=1.781
+[Epoch 24][Batch 3199], Speed: 153.008 samples/sec, CrossEntropy=3.051, SmoothL1=1.781
+[Epoch 24][Batch 3299], Speed: 138.404 samples/sec, CrossEntropy=3.050, SmoothL1=1.781
+[Epoch 24][Batch 3399], Speed: 164.440 samples/sec, CrossEntropy=3.050, SmoothL1=1.780
+[Epoch 24][Batch 3499], Speed: 157.499 samples/sec, CrossEntropy=3.051, SmoothL1=1.781
+[Epoch 24][Batch 3599], Speed: 172.704 samples/sec, CrossEntropy=3.052, SmoothL1=1.780
+[Epoch 24] Training cost: 772.887, CrossEntropy=3.052, SmoothL1=1.780
