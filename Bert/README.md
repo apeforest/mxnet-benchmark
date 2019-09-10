@@ -27,14 +27,12 @@ In addition, we also change the following in script:
 
 ## Parameters
 
-|Instance	|Num GPUs	|Framework	|Pretraining	|Tokens/GPU	|Batch Size	|Steps	|accumulation	|max_predictions_per_seq	|lr	|warmup_ratio	|
+### Stage 1
+|Instance	|Num GPUs	|Comm	Tokens/GPU	|Batch Size	|Steps	|accumulation	|max_predictions_per_seq	|lr	|warmup_ratio	|
 |---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
-|32 x p3dn (EFA)	|256	|HVD	|Stage-1	|	|2048	|25600	|2	|20	|0.00354	|0.1	|
-|Stage-1	|	|2048	|25600	|4	|20	|0.00354	|0.1	|
-|Stage-2	|	|	|11377	|2	|77	|0.00177	|0.025	|
-|4 x p3dn (EFA)	|32	|BPS	|Stage-1	|8192	|2048	|225000	|1	|19.2	|0.00125	|0.0125	|
-|Stage-2	|	|	|	|	|	|	|	|
-|1 x p3dn	|8	|BPS	|Stage-1	|4096	|256	|900000	|1	|	|1.00E-04	|	|
+|32 x p3dn (EFA) |256	|HVD	| 8192 |2048	|25600	|2	|20	|0.00354	|0.1	|
+|4 x p3dn (EFA)	|32	|BytePS	| 8192	|2048	|225000	|1	|19.2	|0.00125	|0.0125	|
+|1 x p3dn	|8	|BytePS	|8192	|256	|900000	|1	|	|1.00E-04	|	|
 
 ## Run
 
