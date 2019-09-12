@@ -1,0 +1,1444 @@
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: ip-172-31-1-58
+--------------------------------------------------------------------------
+[ip-172-31-1-58:21699] 31 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+[ip-172-31-1-58:21699] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[1,7]<stderr>:[17:47:33] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,4]<stderr>:[17:47:33] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,1]<stderr>:[17:47:33] [1,1]<stderr>:src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,0]<stderr>:[17:47:33] src/storage/storage.cc:110: [1,0]<stderr>:Using GPUPooledRoundedStorageManager.
+[1,5]<stderr>:[17:47:33] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,6]<stderr>:[17:47:33] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,3]<stderr>:[17:47:33[1,3]<stderr>:] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,2]<stderr>:[17:47:33] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,17]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,18]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,23]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,16]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,20]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,22]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,21]<stderr>:[17:47:34] src/storage/storage.cc:[1,21]<stderr>:110: Using GPUPooledRoundedStorageManager.
+[1,12]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,9]<stderr>:[17:47:34] src/storage/storage.cc:110: [1,9]<stderr>:Using GPUPooledRoundedStorageManager.
+[1,19]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,11]<stderr>:[[1,11]<stderr>:17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,15]<stderr>:[17:47:34] src/storage/storage.cc[1,15]<stderr>::110: Using GPUPooledRoundedStorageManager.
+[1,13]<stderr>:[17:47:34] src/storage/storage.cc:[1,13]<stderr>:110: Using GPUPooledRoundedStorageManager.
+[1,14]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,7]<stdout>:loading annotations into memory...
+[1,10]<stderr>:[17:47:34] src/storage/storage.cc:[1,10]<stderr>:110: Using GPUPooledRoundedStorageManager.
+[1,8]<stderr>:[17:47:34] [1,8]<stderr>:src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,27]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,28]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,4]<stdout>:loading annotations into memory...
+[1,30]<stderr>:[17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,25]<stderr>:[[1,25]<stderr>:17:47:34] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,31]<stderr>:[17:47:35] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,29]<stderr>:[17:47:35] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,24]<stderr>:[17:47:35] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,26]<stderr>:[17:47:35] src/storage/storage.cc:110: Using GPUPooledRoundedStorageManager.
+[1,1]<stdout>:loading annotations into memory...
+[1,5]<stdout>:loading annotations into memory...
+[1,18]<stdout>:loading annotations into memory...
+[1,20]<stdout>:loading annotations into memory...
+[1,0]<stdout>:loading annotations into memory...
+[1,23]<stdout>:loading annotations into memory...
+[1,6]<stdout>:loading annotations into memory...
+[1,3]<stdout>:loading annotations into memory...
+[1,17]<stdout>:loading annotations into memory...
+[1,12]<stdout>:loading annotations into memory...
+[1,21]<stdout>:loading annotations into memory...
+[1,15]<stdout>:loading annotations into memory...
+[1,19]<stdout>:loading annotations into memory...
+[1,2]<stdout>:loading annotations into memory...
+[1,16]<stdout>:loading annotations into memory...
+[1,14]<stdout>:loading annotations into memory...
+[1,8]<stdout>:loading annotations into memory...
+[1,22]<stdout>:loading annotations into memory...
+[1,9]<stdout>:loading annotations into memory...
+[1,10]<stdout>:loading annotations into memory...
+[1,11]<stdout>:loading annotations into memory...
+[1,25]<stdout>:loading annotations into memory...
+[1,13]<stdout>:loading annotations into memory...
+[1,28]<stdout>:loading annotations into memory...
+[1,30]<stdout>:loading annotations into memory...
+[1,26]<stdout>:loading annotations into memory...
+[1,29]<stdout>:loading annotations into memory...
+[1,31]<stdout>:loading annotations into memory...
+[1,27]<stdout>:loading annotations into memory...
+[1,24]<stdout>:loading annotations into memory...
+[1,18]<stdout>:Done (t=14.80s)
+[1,18]<stdout>:creating index...
+[1,1]<stdout>:Done (t=15.30s)
+[1,1]<stdout>:creating index...
+[1,19]<stdout>:Done (t=14.52s)
+[1,19]<stdout>:creating index...
+[1,5]<stdout>:Done (t=15.05s)
+[1,5]<stdout>:creating index...
+[1,0]<stdout>:Done (t=15.01s)
+[1,0]<stdout>:creating index...
+[1,3]<stdout>:Done (t=15.00s)
+[1,3]<stdout>:creating index...
+[1,2]<stdout>:Done (t=14.87s)
+[1,2]<stdout>:creating index...
+[1,18]<stdout>:index created!
+[1,19]<stdout>:index created!
+[1,5]<stdout>:index created!
+[1,4]<stdout>:Done (t=16.34s)
+[1,4]<stdout>:creating index...
+[1,1]<stdout>:index created!
+[1,0]<stdout>:index created!
+[1,12]<stdout>:Done (t=15.69s)
+[1,12]<stdout>:creating index...
+[1,16]<stdout>:Done (t=15.57s)
+[1,16]<stdout>:creating index...
+[1,3]<stdout>:index created!
+[1,2]<stdout>:index created!
+[1,23]<stdout>:Done (t=15.98s)
+[1,23]<stdout>:creating index...
+[1,21]<stdout>:Done (t=15.97s)
+[1,21]<stdout>:creating index...
+[1,7]<stdout>:Done (t=17.18s)
+[1,7]<stdout>:creating index...
+[1,13]<stdout>:Done (t=15.66s)
+[1,13]<stdout>:creating index...
+[1,20]<stdout>:Done (t=16.35s)
+[1,20]<stdout>:creating index...
+[1,9]<stdout>:Done (t=15.91s)
+[1,9]<stdout>:creating index...
+[1,4]<stdout>:index created!
+[1,22]<stdout>:Done (t=16.02s)
+[1,22]<stdout>:creating index...
+[1,17]<stdout>:Done (t=16.41s)
+[1,17]<stdout>:creating index...
+[1,12]<stdout>:index created!
+[1,14]<stdout>:Done (t=16.28s)
+[1,14]<stdout>:creating index...
+[1,23]<stdout>:index created!
+[1,15]<stdout>:Done (t=16.66s)
+[1,15]<stdout>:creating index...
+[1,24]<stdout>:Done (t=15.72s)
+[1,24]<stdout>:creating index...
+[1,28]<stdout>:Done (t=16.19s)
+[1,28]<stdout>:creating index...
+[1,31]<stdout>:Done (t=16.01s)
+[1,31]<stdout>:creating index...
+[1,16]<stdout>:index created!
+[1,21]<stdout>:index created!
+[1,26]<stdout>:Done (t=16.27s)
+[1,26]<stdout>:creating index...
+[1,25]<stdout>:Done (t=16.55s)
+[1,25]<stdout>:creating index...
+[1,13]<stdout>:index created!
+[1,10]<stdout>:Done (t=16.60s)
+[1,10]<stdout>:creating index...
+[1,6]<stdout>:Done (t=17.07s)
+[1,6]<stdout>:creating index...
+[1,8]<stdout>:Done (t=16.78s)
+[1,8]<stdout>:creating index...
+[1,7]<stdout>:index created!
+[1,20]<stdout>:index created!
+[1,9]<stdout>:index created!
+[1,22]<stdout>:index created!
+[1,30]<stdout>:Done (t=16.57s)
+[1,30]<stdout>:creating index...
+[1,17]<stdout>:index created!
+[1,14]<stdout>:index created!
+[1,29]<stdout>:Done (t=16.63s)
+[1,29]<stdout>:creating index...
+[1,27]<stdout>:Done (t=16.55s)
+[1,27]<stdout>:creating index...
+[1,24]<stdout>:index created!
+[1,15]<stdout>:index created!
+[1,28]<stdout>:index created!
+[1,25]<stdout>:index created!
+[1,31]<stdout>:index created!
+[1,6]<stdout>:index created!
+[1,26]<stdout>:index created!
+[1,10]<stdout>:index created!
+[1,8]<stdout>:index created!
+[1,30]<stdout>:index created!
+[1,29]<stdout>:index created!
+[1,27]<stdout>:index created!
+[1,11]<stdout>:Done (t=18.43s)
+[1,11]<stdout>:creating index...
+[1,11]<stdout>:index created!
+[1,0]<stdout>:loading annotations into memory...
+[1,0]<stdout>:Done (t=0.36s)
+[1,0]<stdout>:creating index...
+[1,0]<stdout>:index created!
+[1,2]<stdout>:loading annotations into memory...
+[1,3]<stdout>:loading annotations into memory...
+[1,2]<stdout>:Done (t=0.36s)
+[1,2]<stdout>:creating index...
+[1,2]<stdout>:index created!
+[1,3]<stdout>:Done (t=0.37s)
+[1,3]<stdout>:creating index...
+[1,3]<stdout>:index created!
+[1,5]<stdout>:loading annotations into memory...
+[1,0]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,0]<stderr>:  'is ignored.'.format(self.name, req))
+[1,22]<stdout>:loading annotations into memory...
+[1,5]<stdout>:Done (t=0.36s)
+[1,5]<stdout>:creating index...
+[1,5]<stdout>:index created!
+[1,23]<stdout>:loading annotations into memory...
+[1,22]<stdout>:Done (t=0.43s)
+[1,22]<stdout>:creating index...
+[1,22]<stdout>:index created!
+[1,23]<stdout>:Done (t=0.37s)
+[1,23]<stdout>:creating index...
+[1,23]<stdout>:index created!
+[1,6]<stdout>:loading annotations into memory...
+[1,2]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,2]<stderr>:  'is ignored.'.format(self.name, req))
+[1,21]<stdout>:loading annotations into memory...
+[1,6]<stdout>:Done (t=0.36s)
+[1,6]<stdout>:creating index...
+[1,6]<stdout>:index created!
+[1,3]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,3]<stderr>:  'is ignored.'.format(self.name, req))
+[1,21]<stdout>:Done (t=0.36s)
+[1,21]<stdout>:creating index...
+[1,21]<stdout>:index created!
+[1,1]<stdout>:loading annotations into memory...
+[1,1]<stdout>:Done (t=0.37s)
+[1,1]<stdout>:creating index...
+[1,5]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,5]<stderr>:  'is ignored.'.format(self.name, req))
+[1,1]<stdout>:index created!
+[1,22]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,22]<stderr>:  'is ignored.'.format(self.name, req))
+[1,23]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,23]<stderr>:  'is ignored.'.format(self.name, req))
+[1,18]<stdout>:loading annotations into memory...
+[1,19]<stdout>:loading annotations into memory...
+[1,4]<stdout>:loading annotations into memory...
+[1,18]<stdout>:Done (t=0.37s)
+[1,18]<stdout>:creating index...
+[1,18]<stdout>:index created!
+[1,6]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,6]<stderr>:  'is ignored.'.format(self.name, req))
+[1,27]<stdout>:loading annotations into memory...
+[1,19]<stdout>:Done (t=0.36s)
+[1,19]<stdout>:creating index...
+[1,19]<stdout>:index created!
+[1,4]<stdout>:Done (t=0.37s)
+[1,4]<stdout>:creating index...
+[1,4]<stdout>:index created!
+[1,7]<stdout>:loading annotations into memory...
+[1,29]<stdout>:loading annotations into memory...
+[1,21]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,21]<stderr>:  'is ignored.'.format(self.name, req))
+[1,17]<stdout>:loading annotations into memory...
+[1,27]<stdout>:Done (t=0.48s)
+[1,27]<stdout>:creating index...
+[1,27]<stdout>:index created!
+[1,26]<stdout>:loading annotations into memory...
+[1,29]<stdout>:Done (t=0.36s)
+[1,29]<stdout>:creating index...
+[1,29]<stdout>:index created!
+[1,7]<stdout>:Done (t=0.45s)
+[1,7]<stdout>:creating index...
+[1,7]<stdout>:index created!
+[1,17]<stdout>:Done (t=0.36s)
+[1,17]<stdout>:creating index...
+[1,17]<stdout>:index created!
+[1,28]<stdout>:loading annotations into memory...
+[1,26]<stdout>:Done (t=0.36s)
+[1,26]<stdout>:creating index...
+[1,26]<stdout>:index created!
+[1,30]<stdout>:loading annotations into memory...
+[1,14]<stdout>:loading annotations into memory...
+[1,24]<stdout>:loading annotations into memory...
+[1,12]<stdout>:loading annotations into memory...
+[1,1]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,1]<stderr>:  'is ignored.'.format(self.name, req))
+[1,13]<stdout>:loading annotations into memory...
+[1,28]<stdout>:Done (t=0.36s)
+[1,28]<stdout>:creating index...
+[1,28]<stdout>:index created!
+[1,30]<stdout>:Done (t=0.36s)
+[1,30]<stdout>:creating index...
+[1,30]<stdout>:index created!
+[1,24]<stdout>:Done (t=0.36s)
+[1,24]<stdout>:creating index...
+[1,24]<stdout>:index created!
+[1,14]<stdout>:Done (t=0.43s)
+[1,14]<stdout>:creating index...
+[1,12]<stdout>:Done (t=0.42s)
+[1,12]<stdout>:creating index...
+[1,14]<stdout>:index created!
+[1,12]<stdout>:index created!
+[1,13]<stdout>:Done (t=0.37s)
+[1,13]<stdout>:creating index...
+[1,10]<stdout>:loading annotations into memory...
+[1,13]<stdout>:index created!
+[1,9]<stdout>:loading annotations into memory...
+[1,10]<stdout>:Done (t=0.36s)
+[1,10]<stdout>:creating index...
+[1,18]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,18]<stderr>:  'is ignored.'.format(self.name, req))
+[1,10]<stdout>:index created!
+[1,19]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,19]<stderr>:  'is ignored.'.format(self.name, req))
+[1,8]<stdout>:loading annotations into memory...
+[1,9]<stdout>:Done (t=0.37s)
+[1,9]<stdout>:creating index...
+[1,9]<stdout>:index created!
+[1,4]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,4]<stderr>:  'is ignored.'.format(self.name, req))
+[1,8]<stdout>:Done (t=0.37s)
+[1,8]<stdout>:creating index...
+[1,8]<stdout>:index created!
+[1,27]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,27]<stderr>:  'is ignored.'.format(self.name, req))
+[1,29]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,29]<stderr>:  'is ignored.'.format(self.name, req))
+[1,31]<stdout>:loading annotations into memory...
+[1,17]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,17]<stderr>:  'is ignored.'.format(self.name, req))
+[1,7]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,7]<stderr>:  'is ignored.'.format(self.name, req))
+[1,26]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,26]<stderr>:  'is ignored.'.format(self.name, req))
+[1,31]<stdout>:Done (t=0.48s)
+[1,31]<stdout>:creating index...
+[1,31]<stdout>:index created!
+[1,30]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,30]<stderr>:  'is ignored.'.format(self.name, req))
+[1,28]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,28]<stderr>:  'is ignored.'.format(self.name, req))
+[1,14]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,14]<stderr>:  'is ignored.'.format(self.name, req))
+[1,12]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,12]<stderr>:  'is ignored.'.format(self.name, req))
+[1,24]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,24]<stderr>:  'is ignored.'.format(self.name, req))
+[1,13]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,13]<stderr>:  'is ignored.'.format(self.name, req))
+[1,20]<stdout>:loading annotations into memory...
+[1,10]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,10]<stderr>:  'is ignored.'.format(self.name, req))
+[1,20]<stdout>:Done (t=0.36s)
+[1,20]<stdout>:creating index...
+[1,20]<stdout>:index created!
+[1,9]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,9]<stderr>:  'is ignored.'.format(self.name, req))
+[1,16]<stdout>:loading annotations into memory...
+[1,8]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,8]<stderr>:  'is ignored.'.format(self.name, req))
+[1,16]<stdout>:Done (t=0.37s)
+[1,16]<stdout>:creating index...
+[1,16]<stdout>:index created!
+[1,15]<stdout>:loading annotations into memory...
+[1,15]<stdout>:Done (t=0.37s)
+[1,15]<stdout>:creating index...
+[1,15]<stdout>:index created!
+[1,31]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,31]<stderr>:  'is ignored.'.format(self.name, req))
+[1,25]<stdout>:loading annotations into memory...
+[1,20]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,20]<stderr>:  'is ignored.'.format(self.name, req))
+[1,25]<stdout>:Done (t=0.36s)
+[1,25]<stdout>:creating index...
+[1,25]<stdout>:index created!
+[1,16]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,16]<stderr>:  'is ignored.'.format(self.name, req))
+[1,15]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,15]<stderr>:  'is ignored.'.format(self.name, req))
+[1,25]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,25]<stderr>:  'is ignored.'.format(self.name, req))
+[1,11]<stdout>:loading annotations into memory...
+[1,11]<stdout>:Done (t=0.37s)
+[1,11]<stdout>:creating index...
+[1,11]<stdout>:index created!
+[1,11]<stderr>:/home/ubuntu/anaconda3/lib/python3.6/site-packages/mxnet/gluon/parameter.py:702: UserWarning: Constant parameter "maskrcnn0_rpn0_rpnanchorgenerator0_anchor_" does not support grad_req other than "null", and new value "write" is ignored.
+[1,11]<stderr>:  'is ignored.'.format(self.name, req))
+[1,4]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,4]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,5]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,6]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,25]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,5]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,31]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,6]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,20]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,9]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,7]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,10]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,24]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,7]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,29]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,21]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,18]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,25]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,15]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,31]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,24]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,29]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,0]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,11]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,16]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,0]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,9]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,12]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,11]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,10]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,15]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,12]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,21]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,20]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,16]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,18]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,23]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,8]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,3]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,14]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,23]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,8]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,3]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,26]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,30]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,14]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,26]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,30]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,13]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,28]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,22]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,13]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,28]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,22]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,27]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,27]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,17]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,17]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,19]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,2]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,19]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,2]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,1]<stderr>:INFO:root:Namespace(amp=True, batch_size=128, dataset='coco', disable_hybridization=False, epochs=12, executor_threads=1, gpus='0', horovod=True, kv_store='nccl', log_interval=10, lr=0.01, lr_decay=0.1, lr_decay_epoch='8,10', lr_warmup=1000, lr_warmup_factor=0.3333333333333333, momentum=0.9, network='resnet50_v1b', norm_layer=None, num_workers=4, resume='', save_interval=1, save_prefix='mask_rcnn_resnet50_v1b_coco', seed=233, start_epoch=0, static_alloc=False, use_fpn=False, val_interval=12, verbose=False, wd=0.0001)
+[1,1]<stderr>:INFO:root:Start training from [Epoch 0]
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 0] Set learning rate to 0.003333333333333333
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 32768.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 16384.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 8192.000000
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 4096.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 2048.000000
+[1,10]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,15]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,8]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,11]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,13]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,12]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,14]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,9]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,0]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,5]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,4]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,24]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,25]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,31]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,6]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,3]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,7]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,30]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,26]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,29]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,21]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,2]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,27]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,22]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,20]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,17]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,18]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,1]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,19]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,23]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,28]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,16]<stderr>:INFO:root:AMP: decreasing loss scale to 1024.000000
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 9], Speed: 118.978 samples/sec, RPN_Conf=0.669,RPN_SmoothL1=0.173,RCNN_CrossEntropy=16.323,RCNN_SmoothL1=1.145,RCNN_Mask=3.588,RPNAcc=0.700,RPNL1Loss=0.688,RCNNAcc=0.188,RCNNL1Loss=1.973,MaskAcc=0.487,MaskFGAcc=0.544
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 10] Set learning rate to 0.0034
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 19], Speed: 220.415 samples/sec, RPN_Conf=0.614,RPN_SmoothL1=0.163,RCNN_CrossEntropy=10.642,RCNN_SmoothL1=1.230,RCNN_Mask=3.406,RPNAcc=0.782,RPNL1Loss=0.633,RCNNAcc=0.510,RCNNL1Loss=1.965,MaskAcc=0.500,MaskFGAcc=0.543
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 20] Set learning rate to 0.003466666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 29], Speed: 214.727 samples/sec, RPN_Conf=0.532,RPN_SmoothL1=0.161,RCNN_CrossEntropy=8.499,RCNN_SmoothL1=1.293,RCNN_Mask=3.214,RPNAcc=0.814,RPNL1Loss=0.611,RCNNAcc=0.614,RCNNL1Loss=1.987,MaskAcc=0.511,MaskFGAcc=0.549
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 30] Set learning rate to 0.0035333333333333328
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 39], Speed: 214.535 samples/sec, RPN_Conf=0.478,RPN_SmoothL1=0.168,RCNN_CrossEntropy=7.424,RCNN_SmoothL1=1.315,RCNN_Mask=3.095,RPNAcc=0.829,RPNL1Loss=0.622,RCNNAcc=0.666,RCNNL1Loss=1.963,MaskAcc=0.527,MaskFGAcc=0.556
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 40] Set learning rate to 0.0035999999999999995
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 49], Speed: 212.432 samples/sec, RPN_Conf=0.433,RPN_SmoothL1=0.158,RCNN_CrossEntropy=6.654,RCNN_SmoothL1=1.318,RCNN_Mask=2.986,RPNAcc=0.844,RPNL1Loss=0.603,RCNNAcc=0.701,RCNNL1Loss=1.995,MaskAcc=0.543,MaskFGAcc=0.563
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 50] Set learning rate to 0.0036666666666666666
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 59], Speed: 218.074 samples/sec, RPN_Conf=0.402,RPN_SmoothL1=0.160,RCNN_CrossEntropy=6.228,RCNN_SmoothL1=1.364,RCNN_Mask=2.906,RPNAcc=0.856,RPNL1Loss=0.589,RCNNAcc=0.721,RCNNL1Loss=2.033,MaskAcc=0.560,MaskFGAcc=0.567
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 60] Set learning rate to 0.003733333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 69], Speed: 209.659 samples/sec, RPN_Conf=0.379,RPN_SmoothL1=0.155,RCNN_CrossEntropy=5.799,RCNN_SmoothL1=1.337,RCNN_Mask=2.821,RPNAcc=0.864,RPNL1Loss=0.584,RCNNAcc=0.739,RCNNL1Loss=2.034,MaskAcc=0.574,MaskFGAcc=0.570
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 70] Set learning rate to 0.0037999999999999996
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 79], Speed: 213.804 samples/sec, RPN_Conf=0.369,RPN_SmoothL1=0.158,RCNN_CrossEntropy=5.527,RCNN_SmoothL1=1.352,RCNN_Mask=2.771,RPNAcc=0.864,RPNL1Loss=0.583,RCNNAcc=0.749,RCNNL1Loss=2.024,MaskAcc=0.586,MaskFGAcc=0.575
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 80] Set learning rate to 0.0038666666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 89], Speed: 210.269 samples/sec, RPN_Conf=0.360,RPN_SmoothL1=0.159,RCNN_CrossEntropy=5.341,RCNN_SmoothL1=1.372,RCNN_Mask=2.732,RPNAcc=0.864,RPNL1Loss=0.572,RCNNAcc=0.756,RCNNL1Loss=2.011,MaskAcc=0.596,MaskFGAcc=0.579
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 90] Set learning rate to 0.003933333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 99], Speed: 208.910 samples/sec, RPN_Conf=0.351,RPN_SmoothL1=0.154,RCNN_CrossEntropy=5.167,RCNN_SmoothL1=1.370,RCNN_Mask=2.694,RPNAcc=0.867,RPNL1Loss=0.561,RCNNAcc=0.764,RCNNL1Loss=2.010,MaskAcc=0.603,MaskFGAcc=0.579
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 100] Set learning rate to 0.004
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 109], Speed: 219.971 samples/sec, RPN_Conf=0.341,RPN_SmoothL1=0.151,RCNN_CrossEntropy=4.974,RCNN_SmoothL1=1.353,RCNN_Mask=2.651,RPNAcc=0.870,RPNL1Loss=0.562,RCNNAcc=0.772,RCNNL1Loss=2.008,MaskAcc=0.611,MaskFGAcc=0.583
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 110] Set learning rate to 0.004066666666666666
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 119], Speed: 213.425 samples/sec, RPN_Conf=0.335,RPN_SmoothL1=0.152,RCNN_CrossEntropy=4.833,RCNN_SmoothL1=1.350,RCNN_Mask=2.620,RPNAcc=0.869,RPNL1Loss=0.559,RCNNAcc=0.778,RCNNL1Loss=2.005,MaskAcc=0.618,MaskFGAcc=0.585
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 120] Set learning rate to 0.0041333333333333335
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 129], Speed: 206.605 samples/sec, RPN_Conf=0.329,RPN_SmoothL1=0.150,RCNN_CrossEntropy=4.725,RCNN_SmoothL1=1.346,RCNN_Mask=2.594,RPNAcc=0.871,RPNL1Loss=0.556,RCNNAcc=0.782,RCNNL1Loss=2.000,MaskAcc=0.625,MaskFGAcc=0.586
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 130] Set learning rate to 0.0042
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 139], Speed: 211.625 samples/sec, RPN_Conf=0.321,RPN_SmoothL1=0.150,RCNN_CrossEntropy=4.624,RCNN_SmoothL1=1.343,RCNN_Mask=2.563,RPNAcc=0.875,RPNL1Loss=0.550,RCNNAcc=0.785,RCNNL1Loss=1.992,MaskAcc=0.632,MaskFGAcc=0.586
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 140] Set learning rate to 0.004266666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 149], Speed: 213.925 samples/sec, RPN_Conf=0.316,RPN_SmoothL1=0.149,RCNN_CrossEntropy=4.569,RCNN_SmoothL1=1.351,RCNN_Mask=2.538,RPNAcc=0.876,RPNL1Loss=0.547,RCNNAcc=0.787,RCNNL1Loss=1.984,MaskAcc=0.638,MaskFGAcc=0.587
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 150] Set learning rate to 0.004333333333333334
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 159], Speed: 214.240 samples/sec, RPN_Conf=0.309,RPN_SmoothL1=0.148,RCNN_CrossEntropy=4.466,RCNN_SmoothL1=1.348,RCNN_Mask=2.513,RPNAcc=0.878,RPNL1Loss=0.546,RCNNAcc=0.791,RCNNL1Loss=1.986,MaskAcc=0.643,MaskFGAcc=0.586
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 160] Set learning rate to 0.004399999999999999
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 169], Speed: 216.542 samples/sec, RPN_Conf=0.304,RPN_SmoothL1=0.148,RCNN_CrossEntropy=4.402,RCNN_SmoothL1=1.348,RCNN_Mask=2.497,RPNAcc=0.879,RPNL1Loss=0.546,RCNNAcc=0.794,RCNNL1Loss=1.980,MaskAcc=0.648,MaskFGAcc=0.588
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 170] Set learning rate to 0.0044666666666666665
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 179], Speed: 209.209 samples/sec, RPN_Conf=0.301,RPN_SmoothL1=0.145,RCNN_CrossEntropy=4.336,RCNN_SmoothL1=1.349,RCNN_Mask=2.473,RPNAcc=0.880,RPNL1Loss=0.539,RCNNAcc=0.795,RCNNL1Loss=1.972,MaskAcc=0.653,MaskFGAcc=0.587
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 180] Set learning rate to 0.004533333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 189], Speed: 214.968 samples/sec, RPN_Conf=0.295,RPN_SmoothL1=0.143,RCNN_CrossEntropy=4.268,RCNN_SmoothL1=1.352,RCNN_Mask=2.447,RPNAcc=0.882,RPNL1Loss=0.539,RCNNAcc=0.798,RCNNL1Loss=1.977,MaskAcc=0.658,MaskFGAcc=0.587
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 190] Set learning rate to 0.0046
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 199], Speed: 211.134 samples/sec, RPN_Conf=0.291,RPN_SmoothL1=0.141,RCNN_CrossEntropy=4.217,RCNN_SmoothL1=1.366,RCNN_Mask=2.425,RPNAcc=0.883,RPNL1Loss=0.535,RCNNAcc=0.799,RCNNL1Loss=1.984,MaskAcc=0.663,MaskFGAcc=0.585
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 200] Set learning rate to 0.004666666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 209], Speed: 208.300 samples/sec, RPN_Conf=0.288,RPN_SmoothL1=0.140,RCNN_CrossEntropy=4.186,RCNN_SmoothL1=1.381,RCNN_Mask=2.409,RPNAcc=0.884,RPNL1Loss=0.533,RCNNAcc=0.800,RCNNL1Loss=1.988,MaskAcc=0.667,MaskFGAcc=0.585
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 210] Set learning rate to 0.0047333333333333324
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 219], Speed: 198.694 samples/sec, RPN_Conf=0.283,RPN_SmoothL1=0.139,RCNN_CrossEntropy=4.150,RCNN_SmoothL1=1.389,RCNN_Mask=2.398,RPNAcc=0.885,RPNL1Loss=0.532,RCNNAcc=0.802,RCNNL1Loss=1.996,MaskAcc=0.670,MaskFGAcc=0.584
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 220] Set learning rate to 0.0048
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 229], Speed: 217.263 samples/sec, RPN_Conf=0.278,RPN_SmoothL1=0.138,RCNN_CrossEntropy=4.112,RCNN_SmoothL1=1.399,RCNN_Mask=2.378,RPNAcc=0.887,RPNL1Loss=0.532,RCNNAcc=0.803,RCNNL1Loss=2.002,MaskAcc=0.675,MaskFGAcc=0.584
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 230] Set learning rate to 0.004866666666666667
+[1,0]<stderr>:INFO:root:[Epoch 0][Batch 239], Speed: 212.496 samples/sec, RPN_Conf=0.275,RPN_SmoothL1=0.138,RCNN_CrossEntropy=4.070,RCNN_SmoothL1=1.402,RCNN_Mask=2.365,RPNAcc=0.888,RPNL1Loss=0.531,RCNNAcc=0.804,RCNNL1Loss=2.005,MaskAcc=0.679,MaskFGAcc=0.582
+[1,31]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,28]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,0]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,11]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,29]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,3]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,7]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,15]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,17]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,16]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,18]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,21]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,22]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,9]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,10]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,5]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,8]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,6]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,14]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,27]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,1]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,26]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,24]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,19]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,20]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,13]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,4]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,12]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,23]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,2]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,25]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
+[1,30]<stderr>:INFO:root:[Epoch 0 Iteration 240] Set learning rate to 0.004933333333333333
